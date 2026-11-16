@@ -4,14 +4,15 @@
 - **Sub-Project Folder**: `replications/{{PROJECT_ID}}-{{SLUG}}/`
 - **Target Video URL**: {{YOUTUBE_URL}}
 - **Video ID**: `{{VIDEO_ID}}`
+- **Timestamp Slice**: `{{TIMESTAMP_SLICE}}`
 - **Title**: {{TITLE}}
 
 ---
 
 ## 1. Multi-Tier Ingestion Summary
-- **Tier 1 (Direct CLI & Visual Keyframes)**: [Document metadata, chapters, subtitles, and visual cues]
-- **Tier 2 (Web Ecosystem & Companion Repo Search)**: [Document external writeups, companion GitHub repos, or transcript summaries]
-- **Tier 3 (Discrepancy & Off-Camera Audit)**: [Document fact-checks on spoken claims/math]
+- **Tier 1 (Direct CLI & Visual Keyframes)**: Use `python3 scripts/extract_video_bundle.py "{{YOUTUBE_URL}}"` and `python3 scripts/extract_keyframes.py` when network/tools permit.
+- **Tier 2 (Web Ecosystem & Companion Repo Search)**: Document external writeups, companion GitHub repos, or transcript summaries.
+- **Tier 3 (Discrepancy & Off-Camera Audit)**: Document fact-checks on spoken claims/math.
 
 ---
 
@@ -42,3 +43,18 @@
 1. **Trap #1**: ...
 2. **Trap #2**: ...
 3. **Trap #3**: ...
+
+---
+
+## 6. 4-Tier Feasibility & Replicability Verdict (`docs/feasibility-rubric.md`)
+- **Archetype**: `Web/Full-Stack UI` | `CLI/Backend/AI` | `Games/Creative Coding`
+- **Hard vs. Soft Blockers**: ...
+- **Verdict**: `Tier 1 (Direct Replica)` | `Tier 2 (Functional Equivalent)` | `Tier 3 (Scoped Vertical Slice)` | `Tier 4 (Non-Replicable Hard Stop)`
+
+---
+
+## 7. Golden Keyframes (`GK-01..GK-N`) for Stage 2 Parity Audit
+
+| Keyframe ID | Timestamp | Expected State / Output |
+| :--- | :--- | :--- |
+| `GK-01` | `[MM:SS]` | ... |

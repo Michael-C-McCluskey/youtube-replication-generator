@@ -1,7 +1,7 @@
 # Master Catalog: YouTube Video Replication Sub-Projects
 
 > **Auto-Synced by `scripts/yt_queue.py` from [`QUEUE.json`](../QUEUE.json)**
-> **Current Generator Version**: `v1.1.0` ([`EVOLUTION_LOG.md`](../evolution/EVOLUTION_LOG.md) · [`versions/`](../versions))
+> **Current Generator Version**: `v1.2.0` ([`EVOLUTION_LOG.md`](../evolution/EVOLUTION_LOG.md) · [`versions/`](../versions))
 > **Currently Active Build (`max_concurrent_active = 1`)**: `None (Ready to start next APPROVED_QUEUED project)`
 
 ---
@@ -16,7 +16,7 @@
 
 ## 2. Queue Lifecycle States & Version-Pinning Rules
 
-1. **`STAGE_1_NEEDS_PLAN`** -> Created via `python3 scripts/yt_queue.py add "<youtube_url>" --slug "<slug>"`. Pins `generator_version` (`v1.1.0`) and injects prior lessons from [`evolution/LESSONS_LEARNED.json`](../evolution/LESSONS_LEARNED.json).
+1. **`STAGE_1_NEEDS_PLAN`** -> Created via `python3 scripts/yt_queue.py add "<youtube_url>" --slug "<slug>"`. Pins `generator_version` (`v1.2.0`) and injects prior lessons from [`evolution/LESSONS_LEARNED.json`](../evolution/LESSONS_LEARNED.json).
 2. **`STAGE_1_AWAITING_OK`** -> LLM has completed Stage 1 and called `python3 scripts/yt_queue.py mark-planned <id>`, which freezes an immutable snapshot under `plans/v<N>/`. **HARD STOP: Wait for user "OK".** *(Use `revise-plan <id> --reason "..."` to create `plans/v2/` without overwriting `plans/v1/`.)*
 3. **`APPROVED_QUEUED`** -> User has OK'd the plan (`python3 scripts/yt_queue.py approve <id>`). Waiting in line for Stage 2 execution.
 4. **`STAGE_2_IN_PROGRESS`** -> Claimed via `python3 scripts/yt_queue.py start-next`. **Strictly ONE project may be in progress at a time (`max_concurrent_active = 1`).** Protected from global generator updates by its pinned `generator_version`.

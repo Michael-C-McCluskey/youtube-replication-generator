@@ -116,6 +116,34 @@ class TestYouTubeReplicationQueue(unittest.TestCase):
         self.assertEqual(started_2["id"], "002")
         self.assertEqual(started_2["status"], "STAGE_2_IN_PROGRESS")
 
+    def test_04_multi_project_slice_triage_and_ported_scripts_cli(self):
+        import subprocess
+
+        p1 = self.mgr.add_project(
+            "https://www.youtube.com/watch?v=UytYrhYLOKI",
+            slug="slice-one",
+            title="Slice One",
+            timestamp_slice="01:00-05:30",
+        )
+        self.assertEqual(p1["timestamp_slice"], "01:00-05:30")
+        p1_dir = self.temp_dir / p1["folder"]
+        self.assertTrue((p1_dir / "CUSTOMIZATION_BRIEF.md").exists())
+        self.mgr.mark_planned("001")
+        self.assertTrue((p1_dir / "plans" / "v1" / "CUSTOMIZATION_BRIEF.md").exists())
+
+        res_deps = subprocess.run(
+            ["python3", str(REPO_ROOT / "scripts" / "extract_video_bundle.py"), "--check-deps"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(res_deps.returncode, 0)
+        res_stage = subprocess.run(
+            ["python3", str(REPO_ROOT / "scripts" / "stage_golden_frames.py"), "--help"],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(res_stage.returncode, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

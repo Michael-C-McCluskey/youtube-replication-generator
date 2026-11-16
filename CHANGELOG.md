@@ -4,6 +4,11 @@ All notable evolutions to **`youtube-replication-generator`** (templates, playbo
 
 ---
 
+## [1.2.0] - 2026-11-16
+### Evolved From `v1.1.0`
+- Merged CopyCat Builder multimodal keyframe scripts, 4-Tier Feasibility Gate, Stage 0.5 Multi-Project Triage (--slice), User Spin Customization Brief, and Stage 5 Parity Audit Protocol
+- Immutable snapshot archived at `versions/v1.2.0/`. Existing in-progress sub-projects remain safely pinned to their original `generator_version`.
+
 ## [1.1.0] - 2026-11-16
 ### Added
 - **Self-Evolving Learning & Retrospective Engine (`evolution/` + `scripts/yt_evolve.py`)**:

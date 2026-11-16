@@ -21,21 +21,24 @@ Every LLM service or coding agent working in this repository MUST follow the rul
 
 ### Case A: The User Gives You One or More YouTube Links
 When the user provides a YouTube URL (and has not explicitly told you to skip plan review):
-1. Run:
-   ```bash
-   python3 scripts/yt_queue.py add "<youtube_url>" --slug "<kebab-case-slug>" --title "<Video Title>"
-   ```
-   This creates `replications/<NNN>-<slug>/` and updates `QUEUE.json` + `replications/INDEX.md`.
+1. **Stage 0 & 0.5 (Multimodal Extraction & Multi-Project Triage)**:
+   - When `yt-dlp` / `ffmpeg` are available (`python3 scripts/extract_video_bundle.py --check-deps`), run `scripts/extract_video_bundle.py` and `scripts/extract_keyframes.py` to extract transcripts, description links, and `frame_MM_SS.png` keyframes.
+   - If the video contains **multiple projects** (e.g., *"5 apps in 10 minutes"*), run `yt_queue.py add ... --slice "MM:SS-MM:SS"` once per project so each gets its own isolated sub-project folder.
+   - Otherwise, run:
+     ```bash
+     python3 scripts/yt_queue.py add "<youtube_url>" --slug "<kebab-case-slug>" --title "<Video Title>"
+     ```
 2. Complete **Stage 1** inside `replications/<NNN>-<slug>/`:
-   - **`DECONSTRUCTION.md`** (Stage 1.1): Multi-tier video ingestion, Noise Filter Table, Chronological Stage Breakdown, Knowledge Gap Inventory (`[UNSPECIFIED - Verify before starting]`), and 2–3 "Off-Camera" Traps.
-   - **`RESEARCH_SYNTHESIS.md`** (Stage 1.2): Deep external research on every gap in `DECONSTRUCTION.md`, comparing 2–3 options with trade-offs and giving your informed recommendation/opinion.
-   - **`REPLICATION_BLUEPRINT.md`** (Stage 1.3): 4-part Creative Project Reverse-Engineer plan (`1. Project Overview & Prerequisites`, `2. Bill of Materials & Tool Substitutions`, `3. Step-by-Step Replication Blueprint`, `4. "Off-Camera" Traps & Troubleshooting`) incorporating the recommendations from `RESEARCH_SYNTHESIS.md`.
+   - **`DECONSTRUCTION.md`** (Stage 1.1): Multi-tier ingestion, Noise Filter Table, Chronological Stage Breakdown, Knowledge Gap Inventory (`[UNSPECIFIED - Verify before starting]`), 2–3 "Off-Camera" Traps, **4-Tier Feasibility Verdict** (`docs/feasibility-rubric.md` — halt if `Tier 4`), and **Golden Keyframes (`GK-01..GK-N`)**.
+   - **`RESEARCH_SYNTHESIS.md`** (Stage 1.2): Deep external research on every gap in `DECONSTRUCTION.md` (and `scripts/research_bom_workflow.py` when `>= 4` BOM items), comparing 2–3 options with trade-offs and giving your informed recommendation/opinion.
+   - **`CUSTOMIZATION_BRIEF.md`** (Stage 1.3A): Separate `[PATTERN]` from `[VIDEO_EXAMPLE]` and `[SPIN_LEVER]` so the user can customize the niche, brand, or twist before Stage 2.
+   - **`REPLICATION_BLUEPRINT.md`** (Stage 1.3B): 4-part Creative Project Reverse-Engineer plan (`1. Project Overview & Prerequisites`, `2. Bill of Materials & Tool Substitutions`, `3. Step-by-Step Replication Blueprint`, `4. "Off-Camera" Traps & Troubleshooting`) incorporating the recommendations from `RESEARCH_SYNTHESIS.md`.
    - **`AGENT_INSTRUCTIONS.md`** (Stage 1.4): Standalone execution prompt for Stage 2.
 3. Run:
    ```bash
    python3 scripts/yt_queue.py mark-planned <NNN>
    ```
-4. **HARD STOP**: Present the Stage 1 summary and ask the user to review and **"OK"** the plan before Stage 2 begins.
+4. **HARD STOP**: Present the Stage 1 summary and ask the user to review and **"OK"** the plan (and any custom spin choices in `CUSTOMIZATION_BRIEF.md`) before Stage 2 begins.
 
 ---
 

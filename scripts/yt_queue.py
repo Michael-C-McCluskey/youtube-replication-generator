@@ -50,6 +50,10 @@ STAGE_1_REQUIRED_FILES = [
     "AGENT_INSTRUCTIONS.md",
 ]
 
+STAGE_1_SNAPSHOT_FILES = STAGE_1_REQUIRED_FILES + [
+    "CUSTOMIZATION_BRIEF.md",
+]
+
 
 class QueueError(Exception):
     """Raised when a queue state transition or lock constraint is violated."""
@@ -173,7 +177,7 @@ class ReplicationQueueManager:
         ver = proj.get("plan_version", 1)
         snap_dir = proj_dir / "plans" / f"v{ver}"
         snap_dir.mkdir(parents=True, exist_ok=True)
-        for fname in STAGE_1_REQUIRED_FILES:
+        for fname in STAGE_1_SNAPSHOT_FILES:
             src = proj_dir / fname
             if src.exists():
                 shutil.copy2(src, snap_dir / fname)
@@ -186,6 +190,7 @@ class ReplicationQueueManager:
         slug: str,
         title: str = "",
         archetype: str = "TBD (Classify in Stage 1.1)",
+        timestamp_slice: str = "Full Video",
     ) -> Dict[str, Any]:
         data = self.load_queue()
         clean_slug = sanitize_slug(slug)
@@ -216,6 +221,7 @@ class ReplicationQueueManager:
             "{{SLUG}}": clean_slug,
             "{{YOUTUBE_URL}}": youtube_url.strip(),
             "{{VIDEO_ID}}": video_id,
+            "{{TIMESTAMP_SLICE}}": timestamp_slice.strip() or "Full Video",
             "{{TITLE}}": display_title,
             "{{GENERATOR_VERSION}}": gen_version,
             "{{PLAN_VERSION}}": "1",
@@ -225,6 +231,7 @@ class ReplicationQueueManager:
         template_map = {
             "DECONSTRUCTION.template.md": "DECONSTRUCTION.md",
             "RESEARCH_SYNTHESIS.template.md": "RESEARCH_SYNTHESIS.md",
+            "CUSTOMIZATION_BRIEF.template.md": "CUSTOMIZATION_BRIEF.md",
             "REPLICATION_BLUEPRINT.template.md": "REPLICATION_BLUEPRINT.md",
             "AGENT_INSTRUCTIONS.template.md": "AGENT_INSTRUCTIONS.md",
             "RETROSPECTIVE.template.md": "RETROSPECTIVE.md",
@@ -248,6 +255,7 @@ class ReplicationQueueManager:
             "folder": project_rel_dir,
             "youtube_url": youtube_url.strip(),
             "video_id": video_id,
+            "timestamp_slice": timestamp_slice.strip() or "Full Video",
             "title": display_title,
             "archetype": archetype,
             "generator_version": gen_version,
@@ -486,6 +494,12 @@ def main() -> int:
         default="TBD (Classify in Stage 1.1)",
         help="Video archetype classification",
     )
+    add_p.add_argument(
+        "--slice",
+        dest="timestamp_slice",
+        default="Full Video",
+        help="Timestamp slice (e.g., 02:15-08:40) for multi-project videos (Stage 0.5)",
+    )
 
     plan_p = subparsers.add_parser(
         "mark-planned",
@@ -568,6 +582,7 @@ def main() -> int:
                 slug=args.slug,
                 title=args.title,
                 archetype=args.archetype,
+                timestamp_slice=args.timestamp_slice,
             )
             print(json.dumps({"action": "added", "project": proj}, indent=2))
         elif args.command == "mark-planned":

@@ -115,3 +115,13 @@ The generator learns from every completed sub-project **without breaking any pro
      ```bash
      python3 scripts/yt_evolve.py bump-version 1.2.0 --summary "Improved Stage 1 research template"
      ```
+
+---
+
+## Multimodal Video & Keyframe Extraction Tools (`scripts/` + `docs/`)
+
+Integrated from `CopyCat Builder` for full multimodal signal extraction, feasibility gating, and visual parity auditing:
+- **Preflight & Video Bundle**: `python3 scripts/extract_video_bundle.py --check-deps` (`yt-dlp`, `youtube-transcript-api`, `ffmpeg`).
+- **Keyframe Extraction**: `python3 scripts/extract_keyframes.py` (scene-change, montage-burst, and chapter keyframes) & `python3 scripts/stage_golden_frames.py`.
+- **Multi-Project Video Triage (`Stage 0.5`)**: `python3 scripts/yt_queue.py add "<url>" --slug "<slug>" --slice "02:15-08:40"` scaffolds separate queued sub-projects from a single multi-demo video.
+- **Rubrics & Customization**: [`docs/feasibility-rubric.md`](docs/feasibility-rubric.md) (`Tier 1–4` gate), `CUSTOMIZATION_BRIEF.md` (`[PATTERN]` vs. `[SPIN_LEVER]`), and [`docs/parity-comparison-protocol.md`](docs/parity-comparison-protocol.md) (`0–100` Parity Audit + max 2 Delta Fix Loops).

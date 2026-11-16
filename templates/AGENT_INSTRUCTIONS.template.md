@@ -11,7 +11,8 @@
 - **Target Video**: {{YOUTUBE_URL}}
 - **Stage 1.1 Deconstruction**: [`DECONSTRUCTION.md`](DECONSTRUCTION.md)
 - **Stage 1.2 Research Synthesis**: [`RESEARCH_SYNTHESIS.md`](RESEARCH_SYNTHESIS.md)
-- **Stage 1.3 Approved Blueprint**: [`REPLICATION_BLUEPRINT.md`](REPLICATION_BLUEPRINT.md)
+- **Stage 1.3A User Spin & Customization**: [`CUSTOMIZATION_BRIEF.md`](CUSTOMIZATION_BRIEF.md)
+- **Stage 1.3B Approved Blueprint**: [`REPLICATION_BLUEPRINT.md`](REPLICATION_BLUEPRINT.md)
 
 ---
 

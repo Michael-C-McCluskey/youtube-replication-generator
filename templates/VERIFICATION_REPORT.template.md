@@ -30,8 +30,21 @@
 
 ---
 
-## 4. Satisfaction Gate Checklist
+## 4. 4-Dimension Parity Audit (`docs/parity-comparison-protocol.md`)
+
+| Dimension | Weight | Score (`/100`) | Pass Threshold | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Pattern & Process Fidelity** | `35%` | ... | `>= 90` | ... |
+| **2. User-Spin & Customization Execution** | `35%` | ... | `>= 90` | ... |
+| **3. UX, Polish & Adaptability** | `15%` | ... | `>= 80` | ... |
+| **4. Data, Robustness & Teachability** | `15%` | ... | `>= 85` | ... |
+| **Weighted Overall Score** | `100%` | ... | **`>= 85`** | Delta Fix Loops used: `0 / 2` |
+
+---
+
+## 5. Satisfaction Gate Checklist
 - [ ] All commands and automated tests exited with code `0`.
 - [ ] Every `[UNSPECIFIED - Verify before starting]` parameter has been resolved using `RESEARCH_SYNTHESIS.md`.
+- [ ] Weighted Parity Audit score `>= 85` (Pattern `>= 90`, User-Spin `>= 90`).
 - [ ] All primary deliverables exist in `artifacts/` and match the target output.
 - [ ] User has confirmed satisfaction (or all 5 Objective Gate Checks pass in unattended mode) before `STEP_BY_STEP_TUTORIAL.md` is generated.
