@@ -2,19 +2,19 @@
 
 Always follow the Two-Stage YouTube Replication & Sequential Queue protocol defined in `AGENTS.md` and managed by `scripts/yt_queue.py`:
 
-1. When the user provides a YouTube link:
-   - Scaffold a new numbered sub-project via `python3 scripts/yt_queue.py add "<youtube_url>" --slug "<slug>" --title "<title>"`.
+1. When the user provides a YouTube link (Zero-Nagging Intent Inference):
+   - Scaffold via `python3 scripts/yt_queue.py add "<youtube_url>" --slug "<slug>" --title "<title>" --intent "<user prompt>"`.
    - Complete Stage 1 inside `replications/<NNN>-<slug>/`:
-     - `DECONSTRUCTION.md`: Filter noise, extract chronological `[Timestamp]` steps, flag `[UNSPECIFIED - Verify before starting]` gaps, and list 2-3 "Off-Camera" traps.
-     - `RESEARCH_SYNTHESIS.md`: Research external sources for every gap/under-specified step, compare 2-3 options (Pros/Cons/Trade-offs), and provide well-rounded, thought-out recommendations and opinions.
-     - `REPLICATION_BLUEPRINT.md`: Write the 4-part Creative Project Reverse-Engineer blueprint incorporating the research recommendations.
-     - `AGENT_INSTRUCTIONS.md`: Write the standalone Stage 2 builder instructions.
-   - Run `python3 scripts/yt_queue.py mark-planned <NNN>` and STOP for user approval ("OK").
+     - `DECONSTRUCTION.md`: Filter noise, extract chronological `[Timestamp]` steps, flag `[UNSPECIFIED - Verify before starting]` gaps, classify Archetype (`A/B/C/D`), and run `python3 scripts/yt_queue.py sync-lessons <NNN> --archetype "<arch>"`.
+     - `RESEARCH_SYNTHESIS.md`: Research external sources with provenance/confidence, compare 2-3 options, and define autonomous fallback triggers.
+     - `CUSTOMIZATION_BRIEF.md`: Pre-fill Smart Defaults & Override Table.
+     - `REPLICATION_BLUEPRINT.md`: Write the 4-part Reverse-Engineer blueprint with BOM fallbacks and Off-Camera Traps table.
+     - `AGENT_INSTRUCTIONS.md`: Write the standalone zero-HITL Stage 2 builder instructions.
+   - Run `python3 scripts/yt_queue.py lint-plan <NNN>` and `python3 scripts/yt_queue.py mark-planned <NNN> --strict`, present the **1-Screen Stage 1 Decision Card**, and STOP for `"OK"`.
 2. When the user approves ("OKs") a planned project:
-   - Run `python3 scripts/yt_queue.py approve <NNN>`.
+   - Run `python3 scripts/yt_queue.py approve <NNN> --strict` (and auto-start Stage 2 if queue is idle unless `"OK (queue only)"`).
 3. When executing approved projects:
-   - Work on strictly ONE project at a time via `python3 scripts/yt_queue.py start-next`.
-   - Build and verify inside `replications/<NNN>-<slug>/`, write `VERIFICATION_REPORT.md` (`python3 scripts/yt_queue.py mark-verified <NNN>`), confirm satisfaction, write `STEP_BY_STEP_TUTORIAL.md` as the final step, and run `python3 scripts/yt_queue.py complete <NNN>`.
+   - Work on strictly ONE project at a time via `python3 scripts/yt_queue.py start-next` (`--resume` on crash).
+   - Build and verify inside `replications/<NNN>-<slug>/`, write `VERIFICATION_REPORT.md` (`python3 scripts/yt_queue.py mark-verified <NNN> --strict`), pass all 5 Objective Satisfaction Gate Checks, write `STEP_BY_STEP_TUTORIAL.md`, fill `RETROSPECTIVE.md`, record lessons via `yt_evolve.py record-lesson`, and run `python3 scripts/yt_queue.py complete <NNN> --strict`.
 4. Evolution & Immutable Plan Versioning (`scripts/yt_evolve.py`):
-   - Every sub-project pins `generator_version` and `plan_version` (`plans/v1/`) so generator updates (`bump-version`) never break in-progress builds.
-   - Use `revise-plan` to create `plans/v2/` without overwriting `v1/`, and run `record-lesson` after completion to feed learnings into future Stage 1 plans.
+   - Every sub-project pins `generator_version` and `plan_version` (`plans/v1/`) so `bump-version` never breaks in-progress builds.

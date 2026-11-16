@@ -4,6 +4,11 @@ All notable evolutions to **`youtube-replication-generator`** (templates, playbo
 
 ---
 
+## [1.3.0] - 2026-11-16
+### Evolved From `v1.2.0`
+- Multi-role architectural upgrade: Zero-Nagging Intent Inference, 1-Screen Stage 1 Decision Card, single-turn OK auto-start, source provenance & autonomous fallback triggers, explicit 5 Objective Satisfaction Gate Checks, flock + atomic QUEUE.json, crash-recovery active/pause/--resume, content-aware lint-plan/--strict gates, archetype-scoped sync-lessons, and unified 4-archetype docs
+- Immutable snapshot archived at `versions/v1.3.0/` (`templates/`, `docs/`, `scripts/`, `evolution/LESSONS_LEARNED.json`). Existing in-progress sub-projects remain safely pinned to their original `generator_version`.
+
 ## [1.2.0] - 2026-11-16
 ### Evolved From `v1.1.0`
 - Merged CopyCat Builder multimodal keyframe scripts, 4-Tier Feasibility Gate, Stage 0.5 Multi-Project Triage (--slice), User Spin Customization Brief, and Stage 5 Parity Audit Protocol

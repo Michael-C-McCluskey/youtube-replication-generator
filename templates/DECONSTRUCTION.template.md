@@ -9,8 +9,15 @@
 
 ---
 
+## 0. User Prompt & Inferred Intent
+- **Raw User Request / Intent**: {{USER_INTENT}}
+- **Inferred Execution Mode**: `Exact Replica` | `Adapted Spin` | `Scoped Vertical Slice` *(inferred from prompt without nagging; override in `CUSTOMIZATION_BRIEF.md`)*
+
+---
+
 ## 1. Multi-Tier Ingestion Summary
-- **Tier 1 (Direct CLI & Visual Keyframes)**: Use `python3 scripts/extract_video_bundle.py "{{YOUTUBE_URL}}"` and `python3 scripts/extract_keyframes.py` when network/tools permit.
+- **Ingestion Status**: Tier 1 (`OK` / `Blocked` / `Skipped`) | Tier 2 (`URLs found`) | Tier 3 (`Claims audited`)
+- **Tier 1 (Direct CLI & Visual Keyframes)**: Run `python3 scripts/extract_video_bundle.py "{{YOUTUBE_URL}}"` and `python3 scripts/extract_keyframes.py` when network/tools permit.
 - **Tier 2 (Web Ecosystem & Companion Repo Search)**: Document external writeups, companion GitHub repos, or transcript summaries.
 - **Tier 3 (Discrepancy & Off-Camera Audit)**: Document fact-checks on spoken claims/math.
 
@@ -33,9 +40,9 @@
 
 ## 4. Knowledge Gap Inventory (`[UNSPECIFIED - Verify before starting]`)
 
-| Gap ID | Timestamp | Parameter / Step Skipped in Video | Why It Matters for Replication |
-| :--- | :--- | :--- | :--- |
-| **Gap #1** | `[MM:SS]` | `[UNSPECIFIED - Verify before starting]` ... | Must be researched in `RESEARCH_SYNTHESIS.md` |
+| Gap ID | Timestamp | Parameter / Step Skipped in Video | Blocker Type | Seed Search Queries / Companion Repos | Why It Matters for Replication |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Gap #1** | `[MM:SS]` | `[UNSPECIFIED - Verify before starting]` ... | `Hard Spec` \| `Soft Heuristic` | `"<tool/library>" <param> docs` | Must be researched in `RESEARCH_SYNTHESIS.md` |
 
 ---
 
@@ -47,7 +54,7 @@
 ---
 
 ## 6. 4-Tier Feasibility & Replicability Verdict (`docs/feasibility-rubric.md`)
-- **Archetype**: `Web/Full-Stack UI` | `CLI/Backend/AI` | `Games/Creative Coding`
+- **Archetype**: `Archetype A (Algorithmic / Scientific / OSINT)` | `Archetype B (Multi-Tool AI / Business)` | `Archetype C (Software / DevOps Build)` | `Archetype D (Creative / GUI / Physical-Digital)`
 - **Hard vs. Soft Blockers**: ...
 - **Verdict**: `Tier 1 (Direct Replica)` | `Tier 2 (Functional Equivalent)` | `Tier 3 (Scoped Vertical Slice)` | `Tier 4 (Non-Replicable Hard Stop)`
 

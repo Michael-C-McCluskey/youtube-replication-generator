@@ -16,9 +16,9 @@
 
 ## 2. Bill of Materials & Tool Substitutions
 
-| Item / Software | Exact Spec / Setting Used | Purpose in Project | Accessible Alternative |
-| :--- | :--- | :--- | :--- |
-| ... | ... | ... | ... |
+| Item / Software | Exact Spec / Setting Used | Purpose in Project | Accessible Alternative | Fallback / Degraded Mode |
+| :--- | :--- | :--- | :--- | :--- |
+| ... | ... | ... | ... | Deterministic local mock / offline fixture |
 
 ---
 
@@ -28,20 +28,25 @@
 - **[00:45] [MECHANIC] Step 1.1 — Action Title:** Clear imperative instruction.
   - *Critical Parameter:* (Exact measurement, ratio, setting, or research-recommended value from `RESEARCH_SYNTHESIS.md`).
   - *Verification:* (How to confirm this step succeeded before moving on).
+  - *Fallback:* (Pre-approved degraded mode from `RESEARCH_SYNTHESIS.md` if primary option fails).
 
 ### Phase 2: Assembly / Core Execution
 - **[05:00] [MECHANIC] Step 2.1 — Action Title:** Clear imperative instruction.
   - *Critical Parameter:* ...
   - *Verification:* ...
+  - *Fallback:* ...
 
 ### Phase 3: Finishing
 - **[15:00] [AESTHETIC] Step 3.1 — Action Title:** Clear imperative instruction.
   - *Critical Parameter:* ...
   - *Verification:* ...
+  - *Fallback:* ...
 
 ---
 
 ## 4. "Off-Camera" Traps & Troubleshooting
-- **Trap #1:** ...
-- **Trap #2:** ...
-- **Trap #3:** ...
+
+| Trap ID | Trigger Symptom | Deterministic Fix / Guardrail | Source (Gap # or Lesson ID) |
+| :--- | :--- | :--- | :--- |
+| **Trap #1** | ... | ... | `Gap #1` |
+| **Trap #2** | ... | ... | `L-001` |
