@@ -1,0 +1,17 @@
+# Cursor Agent Rules (.cursorrules)
+
+Always follow the Two-Stage YouTube Replication & Sequential Queue protocol defined in `AGENTS.md` and managed by `scripts/yt_queue.py`:
+
+1. When the user provides a YouTube link:
+   - Scaffold a new numbered sub-project via `python3 scripts/yt_queue.py add "<youtube_url>" --slug "<slug>" --title "<title>"`.
+   - Complete Stage 1 inside `replications/<NNN>-<slug>/`:
+     - `DECONSTRUCTION.md`: Filter noise, extract chronological `[Timestamp]` steps, flag `[UNSPECIFIED - Verify before starting]` gaps, and list 2-3 "Off-Camera" traps.
+     - `RESEARCH_SYNTHESIS.md`: Research external sources for every gap/under-specified step, compare 2-3 options (Pros/Cons/Trade-offs), and provide well-rounded, thought-out recommendations and opinions.
+     - `REPLICATION_BLUEPRINT.md`: Write the 4-part Creative Project Reverse-Engineer blueprint incorporating the research recommendations.
+     - `AGENT_INSTRUCTIONS.md`: Write the standalone Stage 2 builder instructions.
+   - Run `python3 scripts/yt_queue.py mark-planned <NNN>` and STOP for user approval ("OK").
+2. When the user approves ("OKs") a planned project:
+   - Run `python3 scripts/yt_queue.py approve <NNN>`.
+3. When executing approved projects:
+   - Work on strictly ONE project at a time via `python3 scripts/yt_queue.py start-next`.
+   - Build and verify inside `replications/<NNN>-<slug>/`, write `VERIFICATION_REPORT.md` (`python3 scripts/yt_queue.py mark-verified <NNN>`), confirm satisfaction, write `STEP_BY_STEP_TUTORIAL.md` as the final step, and run `python3 scripts/yt_queue.py complete <NNN>`.

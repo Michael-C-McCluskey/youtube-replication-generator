@@ -1,0 +1,250 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://estate-cleanout-pros.example.com/#website",
+      "name": "Estate Cleanout Pros",
+      "description": "Verified Estate Sale Liquidators, Buyout Appraisers & Full-Property Cleanout Teams",
+      "url": "https://estate-cleanout-pros.example.com/"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://estate-cleanout-pros.example.com/#directory-list",
+      "name": "Estate Cleanout Pros Verified Directory Listings",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "LocalBusiness",
+            "@id": "https://estate-cleanout-pros.example.com/#estate-dfw-01",
+            "name": "Lone Star Heritage Estate Liquidators",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "4510 Cole Ave, Dallas, TX 75205",
+              "addressLocality": "Dallas",
+              "addressRegion": "TX"
+            },
+            "telephone": "(214) 555-0211",
+            "url": "https://example.com/lonestar-estate-dfw",
+            "priceRange": "$1200",
+            "maximumAttendeeCapacity": 5000,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 94,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Full Estate Buyout Option",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "501(c)(3) Tax Receipt",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Upfront Out-of-Pocket",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "48-Hour Rush Turnaround",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Realtor Broom-Swept Prep",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "LocalBusiness",
+            "@id": "https://estate-cleanout-pros.example.com/#estate-atx-01",
+            "name": "Hill Country Probate & Cleanout Partners",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2408 Exposition Blvd, Austin, TX 78703",
+              "addressLocality": "Austin",
+              "addressRegion": "TX"
+            },
+            "telephone": "(512) 555-0244",
+            "url": "https://example.com/hillcountry-probate",
+            "priceRange": "$950",
+            "maximumAttendeeCapacity": 4200,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 67,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Full Estate Buyout Option",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "501(c)(3) Tax Receipt",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Upfront Out-of-Pocket",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "48-Hour Rush Turnaround",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Realtor Broom-Swept Prep",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "LocalBusiness",
+            "@id": "https://estate-cleanout-pros.example.com/#estate-atl-01",
+            "name": "Buckhead Legacy Estate Sales & Clearouts",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "3100 Peachtree Rd NE, Atlanta, GA 30305",
+              "addressLocality": "Atlanta",
+              "addressRegion": "GA"
+            },
+            "telephone": "(404) 555-0277",
+            "url": "https://example.com/buckhead-legacy",
+            "priceRange": "$1400",
+            "maximumAttendeeCapacity": 6000,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 78,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Full Estate Buyout Option",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "501(c)(3) Tax Receipt",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Upfront Out-of-Pocket",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "48-Hour Rush Turnaround",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Realtor Broom-Swept Prep",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "LocalBusiness",
+            "@id": "https://estate-cleanout-pros.example.com/#estate-phx-01",
+            "name": "Scottsdale Sunbelt Estate Liquidation",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "5020 N Central Ave, Phoenix, AZ 85012",
+              "addressLocality": "Phoenix",
+              "addressRegion": "AZ"
+            },
+            "telephone": "(602) 555-0299",
+            "url": "https://example.com/sunbelt-estate-phx",
+            "priceRange": "$1100",
+            "maximumAttendeeCapacity": 4500,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 53,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Full Estate Buyout Option",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "501(c)(3) Tax Receipt",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Upfront Out-of-Pocket",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "48-Hour Rush Turnaround",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Realtor Broom-Swept Prep",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://estate-cleanout-pros.example.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between an Estate Cleanout Pro and a junk removal company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Junk haulers charge $800-$3,000+ to dump everything in a landfill. Verified Estate Cleanout Pros appraise and sell/buy out valuable furniture, jewelry, and collectibles first, coordinate itemized charity donations for tax deductions, and leave the home broom-swept for real estate listing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does 'Zero Upfront Out-of-Pocket' work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Operators tagged with this filter deduct their cleanout and staging fee directly from the estate sale proceeds or closing escrow, so heirs pay $0 out of pocket."
+          }
+        }
+      ]
+    }
+  ]
+}

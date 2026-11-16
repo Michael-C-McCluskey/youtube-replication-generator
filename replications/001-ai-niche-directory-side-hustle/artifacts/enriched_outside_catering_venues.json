@@ -1,0 +1,634 @@
+{
+  "slug": "outside-catering-venues",
+  "brand_name": "CaterFree Venues",
+  "tagline": "The Verified Directory of Event & Wedding Venues That Allow Outside Catering & BYOB",
+  "hero_headline": "Skip the $180/Plate Venue Catering Markup.",
+  "hero_subheadline": "Every venue in our directory is review-verified to allow licensed outside caterers, cultural/family cuisine, food trucks, or BYOB alcohol without predatory lock-in.",
+  "schema_type": "EventVenue",
+  "primary_color": "#0f766e",
+  "accent_color": "#d97706",
+  "featured_monthly_usd": 30,
+  "lead_cta_label": "Get 3 Free Venue Quotes",
+  "filter_definitions": [
+    {
+      "key": "allows_outside_catering",
+      "label": "Allows Outside Catering",
+      "icon": "utensils"
+    },
+    {
+      "key": "byob_permitted",
+      "label": "BYOB Alcohol Permitted",
+      "icon": "wine"
+    },
+    {
+      "key": "zero_corkage_fee",
+      "label": "Zero Corkage / Buyout Fee",
+      "icon": "badge-check"
+    },
+    {
+      "key": "food_truck_friendly",
+      "label": "Food Truck Hookup",
+      "icon": "truck"
+    },
+    {
+      "key": "prep_kitchen_included",
+      "label": "Commercial Prep Kitchen",
+      "icon": "flame"
+    }
+  ],
+  "cities": [
+    "Austin, TX",
+    "Dallas, TX",
+    "Atlanta, GA",
+    "Phoenix, AZ"
+  ],
+  "faqs": [
+    {
+      "question": "How do you verify that a venue truly allows outside catering?",
+      "answer": "Our AI enrichment pipeline cross-references each venue's rental contract policy and customer review evidence to confirm whether licensed third-party caterers, cultural caterers, or food trucks are permitted without mandatory in-house F&B minimums."
+    },
+    {
+      "question": "What does 'Zero Corkage / Buyout Fee' mean?",
+      "answer": "Many venues advertise 'outside catering allowed' but charge a $15-$35 per-person outside catering buyout fee. Listings tagged 'Zero Corkage / Buyout Fee' charge $0 extra when you bring a licensed caterer or TABC/state-certified bartender."
+    },
+    {
+      "question": "How can a venue upgrade to a Featured Placement ($30/mo)?",
+      "answer": "Verified venue owners can upgrade any listing for $30/month to pin their venue to the top of city and filter results, display a Verified Featured badge, and receive instant SMS/email routing on incoming event quote inquiries."
+    }
+  ],
+  "raw_listings": [
+    {
+      "id": "venue-atx-01",
+      "name": "The Willow Grove Conservatory",
+      "city": "Austin, TX",
+      "neighborhood": "Dripping Springs",
+      "address": "4120 Fitzhugh Rd, Austin, TX 78736",
+      "phone": "(512) 555-0142",
+      "website": "https://example.com/willow-grove-atx",
+      "capacity": 250,
+      "base_rental_usd": 4200,
+      "rating": 4.9,
+      "review_count": 89,
+      "featured": true,
+      "raw_policy_and_reviews": "Open vendor policy! You may bring any licensed outside caterer or food truck at no additional buyout fee. BYOB beer, wine, and liquor permitted with a TABC certified bartender ($0 corkage fee). Includes a 600 sq ft commercial warming and prep kitchen with ice machine and 220V food truck shore power pad."
+    },
+    {
+      "id": "venue-atx-02",
+      "name": "Eastside Foundry & Courtyards",
+      "city": "Austin, TX",
+      "neighborhood": "East Austin",
+      "address": "1804 E 6th St, Austin, TX 78702",
+      "phone": "(512) 555-0188",
+      "website": "https://example.com/eastside-foundry-atx",
+      "capacity": 180,
+      "base_rental_usd": 3600,
+      "rating": 4.8,
+      "review_count": 64,
+      "featured": false,
+      "raw_policy_and_reviews": "We love Austin food trucks and outside caterers! Bring your own caterer or pull up to 2 food trucks directly into our gated courtyard. BYOB alcohol is welcome with zero corkage fee. Commercial prep kitchen with stainless tables and walk-in cooler included."
+    },
+    {
+      "id": "venue-atx-03",
+      "name": "Barton Creek Limestone Hall",
+      "city": "Austin, TX",
+      "neighborhood": "Southwest Austin",
+      "address": "6910 Bee Cave Rd, Austin, TX 78746",
+      "phone": "(512) 555-0193",
+      "website": "https://example.com/barton-limestone",
+      "capacity": 300,
+      "base_rental_usd": 5100,
+      "rating": 4.7,
+      "review_count": 52,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering permitted for South Asian, Kosher, Halal, and family-style banquets. Commercial prep kitchen on site. Note: A $500 outside kitchen cleanup fee applies; alcohol must be served through our bar package (no BYOB)."
+    },
+    {
+      "id": "venue-dfw-01",
+      "name": "Trinity River Industrial Loft",
+      "city": "Dallas, TX",
+      "neighborhood": "Design District",
+      "address": "1422 Dragon St, Dallas, TX 75207",
+      "phone": "(214) 555-0115",
+      "website": "https://example.com/trinity-loft-dfw",
+      "capacity": 220,
+      "base_rental_usd": 3900,
+      "rating": 4.9,
+      "review_count": 112,
+      "featured": true,
+      "raw_policy_and_reviews": "100% open catering and BYOB policy! Bring your favorite taco truck, BBQ pitmaster, or full-service caterer with zero corkage fee and no hidden markups. Includes commercial prep kitchen and drive-in loading bay for food trucks."
+    },
+    {
+      "id": "venue-dfw-02",
+      "name": "White Rock Glass Pavilion",
+      "city": "Dallas, TX",
+      "neighborhood": "East Dallas",
+      "address": "8300 Garland Rd, Dallas, TX 75218",
+      "phone": "(214) 555-0164",
+      "website": "https://example.com/whiterock-glass",
+      "capacity": 160,
+      "base_rental_usd": 3200,
+      "rating": 4.8,
+      "review_count": 47,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering allowed from any health-permitted vendor. BYOB beer and wine allowed with zero corkage fee. Staging pantry and commercial prep kitchen available."
+    },
+    {
+      "id": "venue-dfw-03",
+      "name": "Bishop Arts Heritage Courtyard",
+      "city": "Dallas, TX",
+      "neighborhood": "Oak Cliff",
+      "address": "408 W Eighth St, Dallas, TX 75208",
+      "phone": "(214) 555-0179",
+      "website": "https://example.com/bishop-courtyard",
+      "capacity": 140,
+      "base_rental_usd": 2850,
+      "rating": 4.6,
+      "review_count": 39,
+      "featured": false,
+      "raw_policy_and_reviews": "Bring your own outside caterer or food truck! Courtyard gate opens directly for food truck parking. BYOB permitted ($250 flat bar setup fee)."
+    },
+    {
+      "id": "venue-atl-01",
+      "name": "Peachtree Brickworks Atrium",
+      "city": "Atlanta, GA",
+      "neighborhood": "West Midtown",
+      "address": "1085 Howell Mill Rd, Atlanta, GA 30318",
+      "phone": "(404) 555-0131",
+      "website": "https://example.com/peachtree-brickworks",
+      "capacity": 280,
+      "base_rental_usd": 4500,
+      "rating": 4.9,
+      "review_count": 95,
+      "featured": true,
+      "raw_policy_and_reviews": "We never force you into overpriced banquet chicken. Bring any licensed outside caterer, cultural chef, or food truck with zero corkage fee! BYOB alcohol is fully permitted, and our 800 sq ft commercial prep kitchen has separate vendor load-in."
+    },
+    {
+      "id": "venue-atl-02",
+      "name": "Inman Park Botanical Carriage House",
+      "city": "Atlanta, GA",
+      "neighborhood": "Inman Park",
+      "address": "290 Elizabeth St NE, Atlanta, GA 30307",
+      "phone": "(404) 555-0156",
+      "website": "https://example.com/inman-carriage",
+      "capacity": 150,
+      "base_rental_usd": 3100,
+      "rating": 4.8,
+      "review_count": 58,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering permitted with zero buyout or corkage fee! BYOB alcohol permitted. Includes full commercial prep kitchen."
+    },
+    {
+      "id": "venue-atl-03",
+      "name": "Old Fourth Ward BeltLine Warehouse",
+      "city": "Atlanta, GA",
+      "neighborhood": "Old Fourth Ward",
+      "address": "650 North Ave NE, Atlanta, GA 30308",
+      "phone": "(404) 555-0182",
+      "website": "https://example.com/o4w-warehouse",
+      "capacity": 350,
+      "base_rental_usd": 4900,
+      "rating": 4.7,
+      "review_count": 73,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering and food trucks welcome on our private BeltLine patio! Commercial prep kitchen included; in-house bar required (no BYOB)."
+    },
+    {
+      "id": "venue-phx-01",
+      "name": "Sonoran Adobe & Citrus Grove",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Scottsdale Border",
+      "address": "6140 E Camelback Rd, Phoenix, AZ 85018",
+      "phone": "(602) 555-0124",
+      "website": "https://example.com/sonoran-adobe-phx",
+      "capacity": 240,
+      "base_rental_usd": 3800,
+      "rating": 4.9,
+      "review_count": 81,
+      "featured": true,
+      "raw_policy_and_reviews": "Bring your own outside caterer, wood-fired pizza truck, or taco cart! BYOB alcohol allowed with zero corkage fee (buy at Costco/Total Wine and save $4,000+). Commercial prep kitchen and shaded food truck pad included."
+    },
+    {
+      "id": "venue-phx-02",
+      "name": "Roosevelt Row Modern Gallery",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Downtown Arts District",
+      "address": "918 N 2nd St, Phoenix, AZ 85004",
+      "phone": "(602) 555-0149",
+      "website": "https://example.com/roosevelt-gallery",
+      "capacity": 175,
+      "base_rental_usd": 2950,
+      "rating": 4.8,
+      "review_count": 44,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering and food truck friendly! BYOB permitted with zero corkage fee. Prep area available (no commercial hood)."
+    },
+    {
+      "id": "venue-phx-03",
+      "name": "Desert Botanical Terrace Hall",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Arcadia",
+      "address": "4720 E Indian School Rd, Phoenix, AZ 85018",
+      "phone": "(602) 555-0170",
+      "website": "https://example.com/desert-terrace-phx",
+      "capacity": 260,
+      "base_rental_usd": 4300,
+      "rating": 4.7,
+      "review_count": 62,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering permitted for all licensed caterers. Commercial prep kitchen included. BYOB permitted with zero corkage fee."
+    }
+  ],
+  "enriched_listings": [
+    {
+      "id": "venue-atx-01",
+      "name": "The Willow Grove Conservatory",
+      "city": "Austin, TX",
+      "neighborhood": "Dripping Springs",
+      "address": "4120 Fitzhugh Rd, Austin, TX 78736",
+      "phone": "(512) 555-0142",
+      "website": "https://example.com/willow-grove-atx",
+      "capacity": 250,
+      "base_rental_usd": 4200,
+      "rating": 4.9,
+      "review_count": 89,
+      "featured": true,
+      "raw_policy_and_reviews": "Open vendor policy! You may bring any licensed outside caterer or food truck at no additional buyout fee. BYOB beer, wine, and liquor permitted with a TABC certified bartender ($0 corkage fee). Includes a 600 sq ft commercial warming and prep kitchen with ice machine and 220V food truck shore power pad.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Open vendor policy!",
+        "byob_permitted": "BYOB beer, wine, and liquor permitted with a TABC certified bartender ($0 corkage fee).",
+        "zero_corkage_fee": "You may bring any licensed outside caterer or food truck at no additional buyout fee.",
+        "food_truck_friendly": "You may bring any licensed outside caterer or food truck at no additional buyout fee.",
+        "prep_kitchen_included": "Includes a 600 sq ft commercial warming and prep kitchen with ice machine and 220V food truck shore power pad."
+      },
+      "active_filter_count": 5,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-dfw-01",
+      "name": "Trinity River Industrial Loft",
+      "city": "Dallas, TX",
+      "neighborhood": "Design District",
+      "address": "1422 Dragon St, Dallas, TX 75207",
+      "phone": "(214) 555-0115",
+      "website": "https://example.com/trinity-loft-dfw",
+      "capacity": 220,
+      "base_rental_usd": 3900,
+      "rating": 4.9,
+      "review_count": 112,
+      "featured": true,
+      "raw_policy_and_reviews": "100% open catering and BYOB policy! Bring your favorite taco truck, BBQ pitmaster, or full-service caterer with zero corkage fee and no hidden markups. Includes commercial prep kitchen and drive-in loading bay for food trucks.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "100% open catering and BYOB policy!",
+        "byob_permitted": "100% open catering and BYOB policy!",
+        "zero_corkage_fee": "Bring your favorite taco truck, BBQ pitmaster, or full-service caterer with zero corkage fee and no hidden markups.",
+        "food_truck_friendly": "Bring your favorite taco truck, BBQ pitmaster, or full-service caterer with zero corkage fee and no hidden markups.",
+        "prep_kitchen_included": "Includes commercial prep kitchen and drive-in loading bay for food trucks."
+      },
+      "active_filter_count": 5,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-atl-01",
+      "name": "Peachtree Brickworks Atrium",
+      "city": "Atlanta, GA",
+      "neighborhood": "West Midtown",
+      "address": "1085 Howell Mill Rd, Atlanta, GA 30318",
+      "phone": "(404) 555-0131",
+      "website": "https://example.com/peachtree-brickworks",
+      "capacity": 280,
+      "base_rental_usd": 4500,
+      "rating": 4.9,
+      "review_count": 95,
+      "featured": true,
+      "raw_policy_and_reviews": "We never force you into overpriced banquet chicken. Bring any licensed outside caterer, cultural chef, or food truck with zero corkage fee! BYOB alcohol is fully permitted, and our 800 sq ft commercial prep kitchen has separate vendor load-in.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Bring any licensed outside caterer, cultural chef, or food truck with zero corkage fee!",
+        "byob_permitted": "BYOB alcohol is fully permitted, and our 800 sq ft commercial prep kitchen has separate vendor load-in.",
+        "zero_corkage_fee": "Bring any licensed outside caterer, cultural chef, or food truck with zero corkage fee!",
+        "food_truck_friendly": "Bring any licensed outside caterer, cultural chef, or food truck with zero corkage fee!",
+        "prep_kitchen_included": "BYOB alcohol is fully permitted, and our 800 sq ft commercial prep kitchen has separate vendor load-in."
+      },
+      "active_filter_count": 5,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-phx-01",
+      "name": "Sonoran Adobe & Citrus Grove",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Scottsdale Border",
+      "address": "6140 E Camelback Rd, Phoenix, AZ 85018",
+      "phone": "(602) 555-0124",
+      "website": "https://example.com/sonoran-adobe-phx",
+      "capacity": 240,
+      "base_rental_usd": 3800,
+      "rating": 4.9,
+      "review_count": 81,
+      "featured": true,
+      "raw_policy_and_reviews": "Bring your own outside caterer, wood-fired pizza truck, or taco cart! BYOB alcohol allowed with zero corkage fee (buy at Costco/Total Wine and save $4,000+). Commercial prep kitchen and shaded food truck pad included.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Bring your own outside caterer, wood-fired pizza truck, or taco cart!",
+        "byob_permitted": "BYOB alcohol allowed with zero corkage fee (buy at Costco/Total Wine and save $4,000+).",
+        "zero_corkage_fee": "BYOB alcohol allowed with zero corkage fee (buy at Costco/Total Wine and save $4,000+).",
+        "food_truck_friendly": "Bring your own outside caterer, wood-fired pizza truck, or taco cart!",
+        "prep_kitchen_included": "Commercial prep kitchen and shaded food truck pad included."
+      },
+      "active_filter_count": 5,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-atx-02",
+      "name": "Eastside Foundry & Courtyards",
+      "city": "Austin, TX",
+      "neighborhood": "East Austin",
+      "address": "1804 E 6th St, Austin, TX 78702",
+      "phone": "(512) 555-0188",
+      "website": "https://example.com/eastside-foundry-atx",
+      "capacity": 180,
+      "base_rental_usd": 3600,
+      "rating": 4.8,
+      "review_count": 64,
+      "featured": false,
+      "raw_policy_and_reviews": "We love Austin food trucks and outside caterers! Bring your own caterer or pull up to 2 food trucks directly into our gated courtyard. BYOB alcohol is welcome with zero corkage fee. Commercial prep kitchen with stainless tables and walk-in cooler included.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "We love Austin food trucks and outside caterers!",
+        "byob_permitted": "BYOB alcohol is welcome with zero corkage fee.",
+        "zero_corkage_fee": "BYOB alcohol is welcome with zero corkage fee.",
+        "food_truck_friendly": "We love Austin food trucks and outside caterers!",
+        "prep_kitchen_included": "Commercial prep kitchen with stainless tables and walk-in cooler included."
+      },
+      "active_filter_count": 5,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-dfw-02",
+      "name": "White Rock Glass Pavilion",
+      "city": "Dallas, TX",
+      "neighborhood": "East Dallas",
+      "address": "8300 Garland Rd, Dallas, TX 75218",
+      "phone": "(214) 555-0164",
+      "website": "https://example.com/whiterock-glass",
+      "capacity": 160,
+      "base_rental_usd": 3200,
+      "rating": 4.8,
+      "review_count": 47,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering allowed from any health-permitted vendor. BYOB beer and wine allowed with zero corkage fee. Staging pantry and commercial prep kitchen available.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": false,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Outside catering allowed from any health-permitted vendor.",
+        "byob_permitted": "BYOB beer and wine allowed with zero corkage fee.",
+        "zero_corkage_fee": "BYOB beer and wine allowed with zero corkage fee.",
+        "prep_kitchen_included": "Staging pantry and commercial prep kitchen available."
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-atl-02",
+      "name": "Inman Park Botanical Carriage House",
+      "city": "Atlanta, GA",
+      "neighborhood": "Inman Park",
+      "address": "290 Elizabeth St NE, Atlanta, GA 30307",
+      "phone": "(404) 555-0156",
+      "website": "https://example.com/inman-carriage",
+      "capacity": 150,
+      "base_rental_usd": 3100,
+      "rating": 4.8,
+      "review_count": 58,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering permitted with zero buyout or corkage fee! BYOB alcohol permitted. Includes full commercial prep kitchen.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": false,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Outside catering permitted with zero buyout or corkage fee!",
+        "byob_permitted": "BYOB alcohol permitted.",
+        "zero_corkage_fee": "Outside catering permitted with zero buyout or corkage fee!",
+        "prep_kitchen_included": "Includes full commercial prep kitchen."
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-phx-02",
+      "name": "Roosevelt Row Modern Gallery",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Downtown Arts District",
+      "address": "918 N 2nd St, Phoenix, AZ 85004",
+      "phone": "(602) 555-0149",
+      "website": "https://example.com/roosevelt-gallery",
+      "capacity": 175,
+      "base_rental_usd": 2950,
+      "rating": 4.8,
+      "review_count": 44,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering and food truck friendly! BYOB permitted with zero corkage fee. Prep area available (no commercial hood).",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": false
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Outside catering and food truck friendly!",
+        "byob_permitted": "BYOB permitted with zero corkage fee.",
+        "zero_corkage_fee": "BYOB permitted with zero corkage fee.",
+        "food_truck_friendly": "Outside catering and food truck friendly!"
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-phx-03",
+      "name": "Desert Botanical Terrace Hall",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Arcadia",
+      "address": "4720 E Indian School Rd, Phoenix, AZ 85018",
+      "phone": "(602) 555-0170",
+      "website": "https://example.com/desert-terrace-phx",
+      "capacity": 260,
+      "base_rental_usd": 4300,
+      "rating": 4.7,
+      "review_count": 62,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering permitted for all licensed caterers. Commercial prep kitchen included. BYOB permitted with zero corkage fee.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": false,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Outside catering permitted for all licensed caterers.",
+        "byob_permitted": "BYOB permitted with zero corkage fee.",
+        "zero_corkage_fee": "BYOB permitted with zero corkage fee.",
+        "prep_kitchen_included": "Commercial prep kitchen included."
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-atl-03",
+      "name": "Old Fourth Ward BeltLine Warehouse",
+      "city": "Atlanta, GA",
+      "neighborhood": "Old Fourth Ward",
+      "address": "650 North Ave NE, Atlanta, GA 30308",
+      "phone": "(404) 555-0182",
+      "website": "https://example.com/o4w-warehouse",
+      "capacity": 350,
+      "base_rental_usd": 4900,
+      "rating": 4.7,
+      "review_count": 73,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering and food trucks welcome on our private BeltLine patio! Commercial prep kitchen included; in-house bar required (no BYOB).",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": false,
+        "zero_corkage_fee": false,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Outside catering and food trucks welcome on our private BeltLine patio!",
+        "food_truck_friendly": "Outside catering and food trucks welcome on our private BeltLine patio!",
+        "prep_kitchen_included": "Commercial prep kitchen included;"
+      },
+      "active_filter_count": 3,
+      "estimated_client_savings_usd": 1800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-dfw-03",
+      "name": "Bishop Arts Heritage Courtyard",
+      "city": "Dallas, TX",
+      "neighborhood": "Oak Cliff",
+      "address": "408 W Eighth St, Dallas, TX 75208",
+      "phone": "(214) 555-0179",
+      "website": "https://example.com/bishop-courtyard",
+      "capacity": 140,
+      "base_rental_usd": 2850,
+      "rating": 4.6,
+      "review_count": 39,
+      "featured": false,
+      "raw_policy_and_reviews": "Bring your own outside caterer or food truck! Courtyard gate opens directly for food truck parking. BYOB permitted ($250 flat bar setup fee).",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": false,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": false
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Bring your own outside caterer or food truck!",
+        "byob_permitted": "BYOB permitted ($250 flat bar setup fee).",
+        "food_truck_friendly": "Bring your own outside caterer or food truck!"
+      },
+      "active_filter_count": 3,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "venue-atx-03",
+      "name": "Barton Creek Limestone Hall",
+      "city": "Austin, TX",
+      "neighborhood": "Southwest Austin",
+      "address": "6910 Bee Cave Rd, Austin, TX 78746",
+      "phone": "(512) 555-0193",
+      "website": "https://example.com/barton-limestone",
+      "capacity": 300,
+      "base_rental_usd": 5100,
+      "rating": 4.7,
+      "review_count": 52,
+      "featured": false,
+      "raw_policy_and_reviews": "Outside catering permitted for South Asian, Kosher, Halal, and family-style banquets. Commercial prep kitchen on site. Note: A $500 outside kitchen cleanup fee applies; alcohol must be served through our bar package (no BYOB).",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": false,
+        "zero_corkage_fee": false,
+        "food_truck_friendly": false,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Outside catering permitted for South Asian, Kosher, Halal, and family-style banquets.",
+        "prep_kitchen_included": "Commercial prep kitchen on site."
+      },
+      "active_filter_count": 2,
+      "estimated_client_savings_usd": 1800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "enrichment_summary": {
+    "total_listings": 12,
+    "verified_count": 12,
+    "featured_count": 4,
+    "avg_data_quality_score": 100.0
+  }
+}

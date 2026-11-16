@@ -1,0 +1,674 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://outside-catering-venues.example.com/#website",
+      "name": "CaterFree Venues",
+      "description": "The Verified Directory of Event & Wedding Venues That Allow Outside Catering & BYOB",
+      "url": "https://outside-catering-venues.example.com/"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://outside-catering-venues.example.com/#directory-list",
+      "name": "CaterFree Venues Verified Directory Listings",
+      "numberOfItems": 12,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-atx-01",
+            "name": "The Willow Grove Conservatory",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "4120 Fitzhugh Rd, Austin, TX 78736",
+              "addressLocality": "Austin",
+              "addressRegion": "TX"
+            },
+            "telephone": "(512) 555-0142",
+            "url": "https://example.com/willow-grove-atx",
+            "priceRange": "$4200",
+            "maximumAttendeeCapacity": 250,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 89,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-dfw-01",
+            "name": "Trinity River Industrial Loft",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1422 Dragon St, Dallas, TX 75207",
+              "addressLocality": "Dallas",
+              "addressRegion": "TX"
+            },
+            "telephone": "(214) 555-0115",
+            "url": "https://example.com/trinity-loft-dfw",
+            "priceRange": "$3900",
+            "maximumAttendeeCapacity": 220,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 112,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-atl-01",
+            "name": "Peachtree Brickworks Atrium",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1085 Howell Mill Rd, Atlanta, GA 30318",
+              "addressLocality": "Atlanta",
+              "addressRegion": "GA"
+            },
+            "telephone": "(404) 555-0131",
+            "url": "https://example.com/peachtree-brickworks",
+            "priceRange": "$4500",
+            "maximumAttendeeCapacity": 280,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 95,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-phx-01",
+            "name": "Sonoran Adobe & Citrus Grove",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "6140 E Camelback Rd, Phoenix, AZ 85018",
+              "addressLocality": "Phoenix",
+              "addressRegion": "AZ"
+            },
+            "telephone": "(602) 555-0124",
+            "url": "https://example.com/sonoran-adobe-phx",
+            "priceRange": "$3800",
+            "maximumAttendeeCapacity": 240,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 81,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-atx-02",
+            "name": "Eastside Foundry & Courtyards",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1804 E 6th St, Austin, TX 78702",
+              "addressLocality": "Austin",
+              "addressRegion": "TX"
+            },
+            "telephone": "(512) 555-0188",
+            "url": "https://example.com/eastside-foundry-atx",
+            "priceRange": "$3600",
+            "maximumAttendeeCapacity": 180,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 64,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-dfw-02",
+            "name": "White Rock Glass Pavilion",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "8300 Garland Rd, Dallas, TX 75218",
+              "addressLocality": "Dallas",
+              "addressRegion": "TX"
+            },
+            "telephone": "(214) 555-0164",
+            "url": "https://example.com/whiterock-glass",
+            "priceRange": "$3200",
+            "maximumAttendeeCapacity": 160,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 47,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-atl-02",
+            "name": "Inman Park Botanical Carriage House",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "290 Elizabeth St NE, Atlanta, GA 30307",
+              "addressLocality": "Atlanta",
+              "addressRegion": "GA"
+            },
+            "telephone": "(404) 555-0156",
+            "url": "https://example.com/inman-carriage",
+            "priceRange": "$3100",
+            "maximumAttendeeCapacity": 150,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 58,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-phx-02",
+            "name": "Roosevelt Row Modern Gallery",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "918 N 2nd St, Phoenix, AZ 85004",
+              "addressLocality": "Phoenix",
+              "addressRegion": "AZ"
+            },
+            "telephone": "(602) 555-0149",
+            "url": "https://example.com/roosevelt-gallery",
+            "priceRange": "$2950",
+            "maximumAttendeeCapacity": 175,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 44,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-phx-03",
+            "name": "Desert Botanical Terrace Hall",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "4720 E Indian School Rd, Phoenix, AZ 85018",
+              "addressLocality": "Phoenix",
+              "addressRegion": "AZ"
+            },
+            "telephone": "(602) 555-0170",
+            "url": "https://example.com/desert-terrace-phx",
+            "priceRange": "$4300",
+            "maximumAttendeeCapacity": 260,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.7,
+              "reviewCount": 62,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-atl-03",
+            "name": "Old Fourth Ward BeltLine Warehouse",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "650 North Ave NE, Atlanta, GA 30308",
+              "addressLocality": "Atlanta",
+              "addressRegion": "GA"
+            },
+            "telephone": "(404) 555-0182",
+            "url": "https://example.com/o4w-warehouse",
+            "priceRange": "$4900",
+            "maximumAttendeeCapacity": 350,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.7,
+              "reviewCount": 73,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-dfw-03",
+            "name": "Bishop Arts Heritage Courtyard",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "408 W Eighth St, Dallas, TX 75208",
+              "addressLocality": "Dallas",
+              "addressRegion": "TX"
+            },
+            "telephone": "(214) 555-0179",
+            "url": "https://example.com/bishop-courtyard",
+            "priceRange": "$2850",
+            "maximumAttendeeCapacity": 140,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.6,
+              "reviewCount": 39,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": false
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "EventVenue",
+            "@id": "https://outside-catering-venues.example.com/#venue-atx-03",
+            "name": "Barton Creek Limestone Hall",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "6910 Bee Cave Rd, Austin, TX 78746",
+              "addressLocality": "Austin",
+              "addressRegion": "TX"
+            },
+            "telephone": "(512) 555-0193",
+            "url": "https://example.com/barton-limestone",
+            "priceRange": "$5100",
+            "maximumAttendeeCapacity": 300,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.7,
+              "reviewCount": 52,
+              "bestRating": 5
+            },
+            "amenityFeature": [
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Allows Outside Catering",
+                "value": true
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "BYOB Alcohol Permitted",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Zero Corkage / Buyout Fee",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Food Truck Hookup",
+                "value": false
+              },
+              {
+                "@type": "LocationFeatureSpecification",
+                "name": "Commercial Prep Kitchen",
+                "value": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://outside-catering-venues.example.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do you verify that a venue truly allows outside catering?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our AI enrichment pipeline cross-references each venue's rental contract policy and customer review evidence to confirm whether licensed third-party caterers, cultural caterers, or food trucks are permitted without mandatory in-house F&B minimums."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does 'Zero Corkage / Buyout Fee' mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many venues advertise 'outside catering allowed' but charge a $15-$35 per-person outside catering buyout fee. Listings tagged 'Zero Corkage / Buyout Fee' charge $0 extra when you bring a licensed caterer or TABC/state-certified bartender."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can a venue upgrade to a Featured Placement ($30/mo)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Verified venue owners can upgrade any listing for $30/month to pin their venue to the top of city and filter results, display a Verified Featured badge, and receive instant SMS/email routing on incoming event quote inquiries."
+          }
+        }
+      ]
+    }
+  ]
+}

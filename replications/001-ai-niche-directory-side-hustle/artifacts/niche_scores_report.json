@@ -1,0 +1,142 @@
+{
+  "ranked_niches": [
+    {
+      "id": "outside-catering-venues",
+      "name": "Event & Wedding Venues Allowing Outside Catering & BYOB",
+      "seed_query": "event venues that allow outside catering near me",
+      "keyword_difficulty": 14,
+      "monthly_search_volume": 3400,
+      "filter_gap_index": 0.95,
+      "filter_gap_reason": "Google Maps and The Knot list event venues broadly, but hide outside-catering policies, corkage fees, and food-truck rules deep inside PDF brochures and customer reviews.",
+      "estimated_lead_value_usd": 45.0,
+      "featured_tier_monthly_usd": 30.0,
+      "display_ad_rpm_usd": 18.5,
+      "demand_validation_signal": "High comment velocity in local Facebook brides/events groups ('Anyone know a venue that lets you bring your own caterer?')",
+      "koerner_recommended": true,
+      "score_breakdown": {
+        "kd_score_max_30": 26.57,
+        "volume_score_max_25": 21.0,
+        "filter_gap_score_max_25": 23.75,
+        "monetization_score_max_20": 18.18
+      },
+      "composite_opportunity_score": 89.5,
+      "passes_koerner_gate": true,
+      "verdict": "BUILD IMMEDIATELY"
+    },
+    {
+      "id": "medicaid-spanish-dentists",
+      "name": "Pediatric & Family Dentists Accepting Medicaid with Spanish-Speaking Staff",
+      "seed_query": "dentists who take medicaid and speak spanish near me",
+      "keyword_difficulty": 19,
+      "monthly_search_volume": 2900,
+      "filter_gap_index": 0.92,
+      "filter_gap_reason": "State insurance portals are outdated and do not verify bilingual chairside staff or Saturday emergency hours.",
+      "estimated_lead_value_usd": 55.0,
+      "featured_tier_monthly_usd": 30.0,
+      "display_ad_rpm_usd": 19.0,
+      "demand_validation_signal": "High urgent search intent with multi-filter friction.",
+      "koerner_recommended": true,
+      "score_breakdown": {
+        "kd_score_max_30": 22.29,
+        "volume_score_max_25": 20.59,
+        "filter_gap_score_max_25": 23.0,
+        "monetization_score_max_20": 19.65
+      },
+      "composite_opportunity_score": 85.53,
+      "passes_koerner_gate": true,
+      "verdict": "BUILD IMMEDIATELY"
+    },
+    {
+      "id": "luxury-restroom-trailers",
+      "name": "Luxury Restroom Trailer Rentals for Outdoor Weddings & Film Sets",
+      "seed_query": "luxury restroom trailer rental near me",
+      "keyword_difficulty": 16,
+      "monthly_search_volume": 1600,
+      "filter_gap_index": 0.89,
+      "filter_gap_reason": "Searchers want climate-controlled flushable trailers with running water, not construction porta-potties.",
+      "estimated_lead_value_usd": 50.0,
+      "featured_tier_monthly_usd": 30.0,
+      "display_ad_rpm_usd": 17.0,
+      "demand_validation_signal": "Proven by Frey Chu's 4-day Claude Code build.",
+      "koerner_recommended": true,
+      "score_breakdown": {
+        "kd_score_max_30": 24.86,
+        "volume_score_max_25": 19.06,
+        "filter_gap_score_max_25": 22.25,
+        "monetization_score_max_20": 18.95
+      },
+      "composite_opportunity_score": 85.11,
+      "passes_koerner_gate": true,
+      "verdict": "BUILD IMMEDIATELY"
+    },
+    {
+      "id": "estate-cleanout-pros",
+      "name": "Estate Sale Liquidation & Full-Property Cleanout Pros",
+      "seed_query": "estate sale cleanout companies near me",
+      "keyword_difficulty": 18,
+      "monthly_search_volume": 2100,
+      "filter_gap_index": 0.9,
+      "filter_gap_reason": "Families settling estates need operators who combine appraisal/buyout, donation tax receipts, and broom-swept cleanout\u2014not generic junk haulers.",
+      "estimated_lead_value_usd": 60.0,
+      "featured_tier_monthly_usd": 30.0,
+      "display_ad_rpm_usd": 16.0,
+      "demand_validation_signal": "Built live by Chris Koerner on camera; high-ticket $1,500-$5,000 job value makes $30/mo featured placement a no-brainer after 1 lead.",
+      "koerner_recommended": true,
+      "score_breakdown": {
+        "kd_score_max_30": 23.14,
+        "volume_score_max_25": 19.76,
+        "filter_gap_score_max_25": 22.5,
+        "monetization_score_max_20": 18.6
+      },
+      "composite_opportunity_score": 84.0,
+      "passes_koerner_gate": true,
+      "verdict": "BUILD IMMEDIATELY"
+    },
+    {
+      "id": "rural-mobile-dog-groomers",
+      "name": "Mobile Dog Groomers with Rural Travel Radius & Large-Breed Vans",
+      "seed_query": "mobile dog groomer near me",
+      "keyword_difficulty": 22,
+      "monthly_search_volume": 4800,
+      "filter_gap_index": 0.88,
+      "filter_gap_reason": "Standard directories list storefront addresses; rural pet owners need service-radius polygons, aggressive/anxious dog handling, and weight limits.",
+      "estimated_lead_value_usd": 25.0,
+      "featured_tier_monthly_usd": 30.0,
+      "display_ad_rpm_usd": 14.5,
+      "demand_validation_signal": "Consistent weekly requests in suburban/rural neighborhood groups.",
+      "koerner_recommended": true,
+      "score_breakdown": {
+        "kd_score_max_30": 19.71,
+        "volume_score_max_25": 21.89,
+        "filter_gap_score_max_25": 22.0,
+        "monetization_score_max_20": 11.57
+      },
+      "composite_opportunity_score": 75.18,
+      "passes_koerner_gate": true,
+      "verdict": "VIABLE"
+    },
+    {
+      "id": "generic-restaurants-near-me",
+      "name": "Generic City Restaurant Directory (Anti-Pattern / Trap Niche)",
+      "seed_query": "best restaurants near me",
+      "keyword_difficulty": 94,
+      "monthly_search_volume": 150000,
+      "filter_gap_index": 0.1,
+      "filter_gap_reason": "Dominated by Yelp, TripAdvisor, and Google Maps; zero filter-gap moat.",
+      "estimated_lead_value_usd": 5.0,
+      "featured_tier_monthly_usd": 30.0,
+      "display_ad_rpm_usd": 8.0,
+      "demand_validation_signal": "Fails Koerner KD <= 30 rule; impossible for a new domain to rank.",
+      "koerner_recommended": false,
+      "score_breakdown": {
+        "kd_score_max_30": 0.0,
+        "volume_score_max_25": 25.0,
+        "filter_gap_score_max_25": 2.5,
+        "monetization_score_max_20": 4.1
+      },
+      "composite_opportunity_score": 31.6,
+      "passes_koerner_gate": false,
+      "verdict": "REJECT (Fails KD/Filter-Gap Gate)"
+    }
+  ]
+}

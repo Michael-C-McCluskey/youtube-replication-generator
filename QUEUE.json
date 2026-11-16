@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "max_concurrent_active": 1,
+  "active_project_id": null,
+  "projects": [
+    {
+      "id": "001",
+      "slug": "ai-niche-directory-side-hustle",
+      "folder": "replications/001-ai-niche-directory-side-hustle",
+      "youtube_url": "https://www.youtube.com/watch?v=NhqSuQPPvbg",
+      "video_id": "NhqSuQPPvbg",
+      "title": "The EASIEST AI Side Hustle To Start Today (Copy This) — Steven Bartlett & Chris Koerner",
+      "archetype": "Archetype B/C: Multi-Tool AI Business + Directory Web App",
+      "status": "COMPLETED",
+      "created_at": "2026-11-16T02:31:00Z",
+      "updated_at": "2026-11-16T03:40:00Z",
+      "approved_at": "2026-11-16T02:36:00Z",
+      "started_at": "2026-11-16T02:37:00Z",
+      "completed_at": "2026-11-16T02:51:00Z"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "vending_machine_100_unit_benchmark": {
+    "total_units": 100,
+    "top_20_percent_units": 20,
+    "top_20_location_type": "High-Density Apartment Complex Lobbies",
+    "top_20_monthly_gross_per_unit_usd": 3000.0,
+    "top_20_subtotal_gross_usd": 60000.0,
+    "bottom_80_percent_units": 80,
+    "bottom_80_location_type": "Standard Offices / Small Commercial (Excluding Low-Volume Auto Shops)",
+    "bottom_80_monthly_gross_per_unit_usd": 400.0,
+    "bottom_80_subtotal_gross_usd": 32000.0,
+    "failed_experiments_cited_in_video": [
+      "Healthy snack vending concepts in health-conscious cities (Failed \u2014 buyers demanded Doritos, Coke, and Diet Coke)",
+      "Auto repair shop waiting rooms (Failed \u2014 insufficient daily foot traffic volume)"
+    ],
+    "total_monthly_gross_usd": 92000.0,
+    "estimated_monthly_net_profit_usd": 32200.0,
+    "estimated_upfront_capex_usd": 350000.0
+  },
+  "directory_10_site_portfolio_benchmark": {
+    "total_sites": 10,
+    "top_20_percent_sites": 2,
+    "bottom_80_percent_sites": 8,
+    "upfront_build_cost_usd": 150.0,
+    "month_1_to_2_revenue_usd": 0.0,
+    "month_6_portfolio_gross_usd": 3202.4,
+    "month_12_winner_site_revenue_usd": 3810.0,
+    "month_12_baseline_site_revenue_usd": 515.0,
+    "month_12_portfolio_gross_usd": 11740.0,
+    "month_12_portfolio_net_usd": 11695.0,
+    "monthly_trajectory": [
+      {
+        "month": 1,
+        "phase": "SEO Valley of Despair",
+        "winner_site_visits": 80,
+        "winner_site_revenue_usd": 0.0,
+        "winner_breakdown": {
+          "display_ads_usd": 0.0,
+          "featured_listings_usd": 0.0,
+          "lead_sales_usd": 0.0,
+          "featured_businesses_count": 0
+        },
+        "baseline_site_visits": 30,
+        "baseline_site_revenue_usd": 0.0,
+        "portfolio_10_sites_gross_usd": 0.0,
+        "portfolio_10_sites_net_usd": -45.0
+      },
+      {
+        "month": 2,
+        "phase": "SEO Valley of Despair",
+        "winner_site_visits": 220,
+        "winner_site_revenue_usd": 0.0,
+        "winner_breakdown": {
+          "display_ads_usd": 0.0,
+          "featured_listings_usd": 0.0,
+          "lead_sales_usd": 0.0,
+          "featured_businesses_count": 0
+        },
+        "baseline_site_visits": 90,
+        "baseline_site_revenue_usd": 0.0,
+        "portfolio_10_sites_gross_usd": 0.0,
+        "portfolio_10_sites_net_usd": -45.0
+      },
+      {
+        "month": 3,
+        "phase": "SEO Valley of Despair",
+        "winner_site_visits": 950,
+        "winner_site_revenue_usd": 28.5,
+        "winner_breakdown": {
+          "display_ads_usd": 0.0,
+          "featured_listings_usd": 0.0,
+          "lead_sales_usd": 28.5,
+          "featured_businesses_count": 0
+        },
+        "baseline_site_visits": 320,
+        "baseline_site_revenue_usd": 6.4,
+        "portfolio_10_sites_gross_usd": 108.2,
+        "portfolio_10_sites_net_usd": 63.2
+      },
+      {
+        "month": 4,
+        "phase": "Initial Traction & Free-Lead Outreach",
+        "winner_site_visits": 3200,
+        "winner_site_revenue_usd": 178.8,
+        "winner_breakdown": {
+          "display_ads_usd": 52.8,
+          "featured_listings_usd": 30.0,
+          "lead_sales_usd": 96.0,
+          "featured_businesses_count": 1
+        },
+        "baseline_site_visits": 850,
+        "baseline_site_revenue_usd": 17.0,
+        "portfolio_10_sites_gross_usd": 493.6,
+        "portfolio_10_sites_net_usd": 448.6
+      },
+      {
+        "month": 5,
+        "phase": "Initial Traction & Free-Lead Outreach",
+        "winner_site_visits": 8500,
+        "winner_site_revenue_usd": 515.25,
+        "winner_breakdown": {
+          "display_ads_usd": 140.25,
+          "featured_listings_usd": 120.0,
+          "lead_sales_usd": 255.0,
+          "featured_businesses_count": 4
+        },
+        "baseline_site_visits": 1800,
+        "baseline_site_revenue_usd": 65.7,
+        "portfolio_10_sites_gross_usd": 1556.1,
+        "portfolio_10_sites_net_usd": 1511.1
+      },
+      {
+        "month": 6,
+        "phase": "Initial Traction & Free-Lead Outreach",
+        "winner_site_visits": 16000,
+        "winner_site_revenue_usd": 1014.0,
+        "winner_breakdown": {
+          "display_ads_usd": 264.0,
+          "featured_listings_usd": 270.0,
+          "lead_sales_usd": 480.0,
+          "featured_businesses_count": 9
+        },
+        "baseline_site_visits": 3200,
+        "baseline_site_revenue_usd": 146.8,
+        "portfolio_10_sites_gross_usd": 3202.4,
+        "portfolio_10_sites_net_usd": 3157.4
+      },
+      {
+        "month": 7,
+        "phase": "Compounding 80/20 Power Law",
+        "winner_site_visits": 25000,
+        "winner_site_revenue_usd": 1582.5,
+        "winner_breakdown": {
+          "display_ads_usd": 412.5,
+          "featured_listings_usd": 420.0,
+          "lead_sales_usd": 750.0,
+          "featured_businesses_count": 14
+        },
+        "baseline_site_visits": 4800,
+        "baseline_site_revenue_usd": 235.2,
+        "portfolio_10_sites_gross_usd": 5046.6,
+        "portfolio_10_sites_net_usd": 5001.6
+      },
+      {
+        "month": 8,
+        "phase": "Compounding 80/20 Power Law",
+        "winner_site_visits": 35000,
+        "winner_site_revenue_usd": 2227.5,
+        "winner_breakdown": {
+          "display_ads_usd": 577.5,
+          "featured_listings_usd": 600.0,
+          "lead_sales_usd": 1050.0,
+          "featured_businesses_count": 20
+        },
+        "baseline_site_visits": 6200,
+        "baseline_site_revenue_usd": 316.3,
+        "portfolio_10_sites_gross_usd": 6985.4,
+        "portfolio_10_sites_net_usd": 6940.4
+      },
+      {
+        "month": 9,
+        "phase": "Compounding 80/20 Power Law",
+        "winner_site_visits": 44000,
+        "winner_site_revenue_usd": 2796.0,
+        "winner_breakdown": {
+          "display_ads_usd": 726.0,
+          "featured_listings_usd": 750.0,
+          "lead_sales_usd": 1320.0,
+          "featured_businesses_count": 25
+        },
+        "baseline_site_visits": 7500,
+        "baseline_site_revenue_usd": 363.75,
+        "portfolio_10_sites_gross_usd": 8502.0,
+        "portfolio_10_sites_net_usd": 8457.0
+      },
+      {
+        "month": 10,
+        "phase": "Compounding 80/20 Power Law",
+        "winner_site_visits": 51000,
+        "winner_site_revenue_usd": 3241.5,
+        "winner_breakdown": {
+          "display_ads_usd": 841.5,
+          "featured_listings_usd": 870.0,
+          "lead_sales_usd": 1530.0,
+          "featured_businesses_count": 29
+        },
+        "baseline_site_visits": 8500,
+        "baseline_site_revenue_usd": 430.25,
+        "portfolio_10_sites_gross_usd": 9925.0,
+        "portfolio_10_sites_net_usd": 9880.0
+      },
+      {
+        "month": 11,
+        "phase": "Compounding 80/20 Power Law",
+        "winner_site_visits": 56000,
+        "winner_site_revenue_usd": 3564.0,
+        "winner_breakdown": {
+          "display_ads_usd": 924.0,
+          "featured_listings_usd": 960.0,
+          "lead_sales_usd": 1680.0,
+          "featured_businesses_count": 32
+        },
+        "baseline_site_visits": 9200,
+        "baseline_site_revenue_usd": 455.8,
+        "portfolio_10_sites_gross_usd": 10774.4,
+        "portfolio_10_sites_net_usd": 10729.4
+      },
+      {
+        "month": 12,
+        "phase": "Compounding 80/20 Power Law",
+        "winner_site_visits": 60000,
+        "winner_site_revenue_usd": 3810.0,
+        "winner_breakdown": {
+          "display_ads_usd": 990.0,
+          "featured_listings_usd": 1020.0,
+          "lead_sales_usd": 1800.0,
+          "featured_businesses_count": 34
+        },
+        "baseline_site_visits": 10000,
+        "baseline_site_revenue_usd": 515.0,
+        "portfolio_10_sites_gross_usd": 11740.0,
+        "portfolio_10_sites_net_usd": 11695.0
+      }
+    ]
+  }
+}

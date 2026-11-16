@@ -1,0 +1,254 @@
+{
+  "slug": "estate-cleanout-pros",
+  "brand_name": "Estate Cleanout Pros",
+  "tagline": "Verified Estate Sale Liquidators, Buyout Appraisers & Full-Property Cleanout Teams",
+  "hero_headline": "Settle & Clear an Entire Estate in One Week\u2014Not Six Months.",
+  "hero_subheadline": "Unlike generic junk haulers, every team listed here is verified for antique valuation, estate auction buyout, 501(c)(3) donation tax receipts, and broom-swept realtor handover.",
+  "schema_type": "LocalBusiness",
+  "primary_color": "#1e3a8a",
+  "accent_color": "#b45309",
+  "featured_monthly_usd": 30,
+  "lead_cta_label": "Get 3 Free Estate Cleanout Bids",
+  "filter_definitions": [
+    {
+      "key": "allows_outside_catering",
+      "label": "Full Estate Buyout Option",
+      "icon": "dollar-sign"
+    },
+    {
+      "key": "byob_permitted",
+      "label": "501(c)(3) Tax Receipt",
+      "icon": "file-text"
+    },
+    {
+      "key": "zero_corkage_fee",
+      "label": "Zero Upfront Out-of-Pocket",
+      "icon": "shield-check"
+    },
+    {
+      "key": "food_truck_friendly",
+      "label": "48-Hour Rush Turnaround",
+      "icon": "clock"
+    },
+    {
+      "key": "prep_kitchen_included",
+      "label": "Realtor Broom-Swept Prep",
+      "icon": "home"
+    }
+  ],
+  "cities": [
+    "Dallas, TX",
+    "Austin, TX",
+    "Atlanta, GA",
+    "Phoenix, AZ"
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between an Estate Cleanout Pro and a junk removal company?",
+      "answer": "Junk haulers charge $800-$3,000+ to dump everything in a landfill. Verified Estate Cleanout Pros appraise and sell/buy out valuable furniture, jewelry, and collectibles first, coordinate itemized charity donations for tax deductions, and leave the home broom-swept for real estate listing."
+    },
+    {
+      "question": "How does 'Zero Upfront Out-of-Pocket' work?",
+      "answer": "Operators tagged with this filter deduct their cleanout and staging fee directly from the estate sale proceeds or closing escrow, so heirs pay $0 out of pocket."
+    }
+  ],
+  "raw_listings": [
+    {
+      "id": "estate-dfw-01",
+      "name": "Lone Star Heritage Estate Liquidators",
+      "city": "Dallas, TX",
+      "neighborhood": "Highland Park",
+      "address": "4510 Cole Ave, Dallas, TX 75205",
+      "phone": "(214) 555-0211",
+      "website": "https://example.com/lonestar-estate-dfw",
+      "capacity": 5000,
+      "base_rental_usd": 1200,
+      "rating": 4.9,
+      "review_count": 94,
+      "featured": true,
+      "raw_policy_and_reviews": "Full estate buyout and 3-day estate sale specialists! We provide certified 501(c)(3) donation tax receipts, deduct fees from proceeds with zero corkage fee / zero upfront out-of-pocket cost, offer 48-hour food truck / rush truck turnaround, and include commercial prep kitchen / full broom-swept realtor handover. (Allows outside catering / buyout verified, BYOB / tax receipt verified)."
+    },
+    {
+      "id": "estate-atx-01",
+      "name": "Hill Country Probate & Cleanout Partners",
+      "city": "Austin, TX",
+      "neighborhood": "Tarrytown",
+      "address": "2408 Exposition Blvd, Austin, TX 78703",
+      "phone": "(512) 555-0244",
+      "website": "https://example.com/hillcountry-probate",
+      "capacity": 4200,
+      "base_rental_usd": 950,
+      "rating": 4.8,
+      "review_count": 67,
+      "featured": true,
+      "raw_policy_and_reviews": "Allows outside catering / full buyout option and BYOB / itemized charity tax receipts! Zero corkage fee / zero upfront cost to executors. Commercial prep kitchen / broom-swept realtor prep included."
+    },
+    {
+      "id": "estate-atl-01",
+      "name": "Buckhead Legacy Estate Sales & Clearouts",
+      "city": "Atlanta, GA",
+      "neighborhood": "Buckhead",
+      "address": "3100 Peachtree Rd NE, Atlanta, GA 30305",
+      "phone": "(404) 555-0277",
+      "website": "https://example.com/buckhead-legacy",
+      "capacity": 6000,
+      "base_rental_usd": 1400,
+      "rating": 4.9,
+      "review_count": 78,
+      "featured": false,
+      "raw_policy_and_reviews": "Allows outside catering / full estate buyout, BYOB / 501c3 tax receipts, food truck / 48-hour rush crew, and commercial prep kitchen / broom-swept staging."
+    },
+    {
+      "id": "estate-phx-01",
+      "name": "Scottsdale Sunbelt Estate Liquidation",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Camelback Corridor",
+      "address": "5020 N Central Ave, Phoenix, AZ 85012",
+      "phone": "(602) 555-0299",
+      "website": "https://example.com/sunbelt-estate-phx",
+      "capacity": 4500,
+      "base_rental_usd": 1100,
+      "rating": 4.8,
+      "review_count": 53,
+      "featured": false,
+      "raw_policy_and_reviews": "Allows outside catering / full buyout option, BYOB / charity donation receipts, zero corkage fee / zero upfront out-of-pocket, and commercial prep kitchen / realtor handover."
+    }
+  ],
+  "enriched_listings": [
+    {
+      "id": "estate-dfw-01",
+      "name": "Lone Star Heritage Estate Liquidators",
+      "city": "Dallas, TX",
+      "neighborhood": "Highland Park",
+      "address": "4510 Cole Ave, Dallas, TX 75205",
+      "phone": "(214) 555-0211",
+      "website": "https://example.com/lonestar-estate-dfw",
+      "capacity": 5000,
+      "base_rental_usd": 1200,
+      "rating": 4.9,
+      "review_count": 94,
+      "featured": true,
+      "raw_policy_and_reviews": "Full estate buyout and 3-day estate sale specialists! We provide certified 501(c)(3) donation tax receipts, deduct fees from proceeds with zero corkage fee / zero upfront out-of-pocket cost, offer 48-hour food truck / rush truck turnaround, and include commercial prep kitchen / full broom-swept realtor handover. (Allows outside catering / buyout verified, BYOB / tax receipt verified).",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Full estate buyout and 3-day estate sale specialists!",
+        "byob_permitted": "We provide certified 501(c)(3) donation tax receipts, deduct fees from proceeds with zero corkage fee / zero upfront out-of-pocket cost, offer 48-hour food truck / rush truck turnaround, and include commercial prep kitchen / full broom-swept realtor handover.",
+        "zero_corkage_fee": "We provide certified 501(c)(3) donation tax receipts, deduct fees from proceeds with zero corkage fee / zero upfront out-of-pocket cost, offer 48-hour food truck / rush truck turnaround, and include commercial prep kitchen / full broom-swept realtor handover.",
+        "food_truck_friendly": "We provide certified 501(c)(3) donation tax receipts, deduct fees from proceeds with zero corkage fee / zero upfront out-of-pocket cost, offer 48-hour food truck / rush truck turnaround, and include commercial prep kitchen / full broom-swept realtor handover.",
+        "prep_kitchen_included": "We provide certified 501(c)(3) donation tax receipts, deduct fees from proceeds with zero corkage fee / zero upfront out-of-pocket cost, offer 48-hour food truck / rush truck turnaround, and include commercial prep kitchen / full broom-swept realtor handover."
+      },
+      "active_filter_count": 5,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "estate-atx-01",
+      "name": "Hill Country Probate & Cleanout Partners",
+      "city": "Austin, TX",
+      "neighborhood": "Tarrytown",
+      "address": "2408 Exposition Blvd, Austin, TX 78703",
+      "phone": "(512) 555-0244",
+      "website": "https://example.com/hillcountry-probate",
+      "capacity": 4200,
+      "base_rental_usd": 950,
+      "rating": 4.8,
+      "review_count": 67,
+      "featured": true,
+      "raw_policy_and_reviews": "Allows outside catering / full buyout option and BYOB / itemized charity tax receipts! Zero corkage fee / zero upfront cost to executors. Commercial prep kitchen / broom-swept realtor prep included.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": false,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Allows outside catering / full buyout option and BYOB / itemized charity tax receipts!",
+        "byob_permitted": "Allows outside catering / full buyout option and BYOB / itemized charity tax receipts!",
+        "zero_corkage_fee": "Zero corkage fee / zero upfront cost to executors.",
+        "prep_kitchen_included": "Commercial prep kitchen / broom-swept realtor prep included."
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "estate-atl-01",
+      "name": "Buckhead Legacy Estate Sales & Clearouts",
+      "city": "Atlanta, GA",
+      "neighborhood": "Buckhead",
+      "address": "3100 Peachtree Rd NE, Atlanta, GA 30305",
+      "phone": "(404) 555-0277",
+      "website": "https://example.com/buckhead-legacy",
+      "capacity": 6000,
+      "base_rental_usd": 1400,
+      "rating": 4.9,
+      "review_count": 78,
+      "featured": false,
+      "raw_policy_and_reviews": "Allows outside catering / full estate buyout, BYOB / 501c3 tax receipts, food truck / 48-hour rush crew, and commercial prep kitchen / broom-swept staging.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": false,
+        "food_truck_friendly": true,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Allows outside catering / full estate buyout, BYOB / 501c3 tax receipts, food truck / 48-hour rush crew, and commercial prep kitchen / broom-swept staging.",
+        "byob_permitted": "Allows outside catering / full estate buyout, BYOB / 501c3 tax receipts, food truck / 48-hour rush crew, and commercial prep kitchen / broom-swept staging.",
+        "food_truck_friendly": "Allows outside catering / full estate buyout, BYOB / 501c3 tax receipts, food truck / 48-hour rush crew, and commercial prep kitchen / broom-swept staging.",
+        "prep_kitchen_included": "Allows outside catering / full estate buyout, BYOB / 501c3 tax receipts, food truck / 48-hour rush crew, and commercial prep kitchen / broom-swept staging."
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "estate-phx-01",
+      "name": "Scottsdale Sunbelt Estate Liquidation",
+      "city": "Phoenix, AZ",
+      "neighborhood": "Camelback Corridor",
+      "address": "5020 N Central Ave, Phoenix, AZ 85012",
+      "phone": "(602) 555-0299",
+      "website": "https://example.com/sunbelt-estate-phx",
+      "capacity": 4500,
+      "base_rental_usd": 1100,
+      "rating": 4.8,
+      "review_count": 53,
+      "featured": false,
+      "raw_policy_and_reviews": "Allows outside catering / full buyout option, BYOB / charity donation receipts, zero corkage fee / zero upfront out-of-pocket, and commercial prep kitchen / realtor handover.",
+      "filters": {
+        "allows_outside_catering": true,
+        "byob_permitted": true,
+        "zero_corkage_fee": true,
+        "food_truck_friendly": false,
+        "prep_kitchen_included": true
+      },
+      "verified_evidence": {
+        "allows_outside_catering": "Allows outside catering / full buyout option, BYOB / charity donation receipts, zero corkage fee / zero upfront out-of-pocket, and commercial prep kitchen / realtor handover.",
+        "byob_permitted": "Allows outside catering / full buyout option, BYOB / charity donation receipts, zero corkage fee / zero upfront out-of-pocket, and commercial prep kitchen / realtor handover.",
+        "zero_corkage_fee": "Allows outside catering / full buyout option, BYOB / charity donation receipts, zero corkage fee / zero upfront out-of-pocket, and commercial prep kitchen / realtor handover.",
+        "prep_kitchen_included": "Allows outside catering / full buyout option, BYOB / charity donation receipts, zero corkage fee / zero upfront out-of-pocket, and commercial prep kitchen / realtor handover."
+      },
+      "active_filter_count": 4,
+      "estimated_client_savings_usd": 3800,
+      "data_quality_score": 100.0,
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "enrichment_summary": {
+    "total_listings": 4,
+    "verified_count": 4,
+    "featured_count": 2,
+    "avg_data_quality_score": 100.0
+  }
+}
