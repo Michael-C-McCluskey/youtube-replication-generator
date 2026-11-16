@@ -14,3 +14,6 @@ Please read and follow [`AGENTS.md`](AGENTS.md) and [`replications/INDEX.md`](re
    - Build and test the project inside `replications/<NNN>-<slug>/`.
    - Write `VERIFICATION_REPORT.md` and run `python3 scripts/yt_queue.py mark-verified <NNN>`.
    - Confirm satisfaction at the **Satisfaction Gate** before writing `STEP_BY_STEP_TUTORIAL.md` as the final step, then run `python3 scripts/yt_queue.py complete <NNN>`.
+4. **Evolution & Immutable Plan Versioning (`scripts/yt_evolve.py`)**:
+   - Stage 1 automatically inherits prior lessons from `evolution/LESSONS_LEARNED.json` and freezes plans into `plans/v1/` (`mark-planned`). Use `revise-plan` for `v2/` without overwriting `v1/`.
+   - After `complete`, record new lessons via `python3 scripts/yt_evolve.py record-lesson ...` and snapshot template improvements via `python3 scripts/yt_evolve.py bump-version <X.Y.Z> --summary "..."` (in-progress projects stay pinned to their original `generator_version`).

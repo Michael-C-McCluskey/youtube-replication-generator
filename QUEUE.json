@@ -1,5 +1,6 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
+  "current_generator_version": "1.1.0",
   "max_concurrent_active": 1,
   "active_project_id": null,
   "projects": [
@@ -11,6 +12,8 @@
       "video_id": "NhqSuQPPvbg",
       "title": "The EASIEST AI Side Hustle To Start Today (Copy This) — Steven Bartlett & Chris Koerner",
       "archetype": "Archetype B/C: Multi-Tool AI Business + Directory Web App",
+      "generator_version": "1.0.0",
+      "plan_version": 1,
       "status": "COMPLETED",
       "created_at": "2026-11-16T02:31:00Z",
       "updated_at": "2026-11-16T03:40:00Z",

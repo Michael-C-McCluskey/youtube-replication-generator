@@ -14,7 +14,13 @@ This document researches external documentation, open-source repositories, bench
 
 ---
 
-## 2. Gap-by-Gap Research, Options & Informed Recommendations
+## 2. Prior Lessons Inherited From Generator Evolution (`evolution/LESSONS_LEARNED.json`)
+
+{{PRIOR_LESSONS_INJECTED}}
+
+---
+
+## 3. Gap-by-Gap Research, Options & Informed Recommendations
 
 ### Gap #1 (`[MM:SS]`): [Title of Under-Specified Parameter or Step]
 - **What the Video Lacked**: ...

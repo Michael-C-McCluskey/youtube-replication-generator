@@ -94,3 +94,24 @@ python3 scripts/yt_queue.py mark-verified 002
 # 6. Complete the project (verifies STEP_BY_STEP_TUTORIAL.md exists & releases the single-project lock)
 python3 scripts/yt_queue.py complete 002
 ```
+
+---
+
+## Generator Evolution & Immutable Plan Versioning (`scripts/yt_evolve.py`)
+
+The generator learns from every completed sub-project **without breaking any project currently in progress**:
+
+1. **Self-Evolving Knowledge Base ([`evolution/`](evolution))**:
+   - [`evolution/LESSONS_LEARNED.json`](evolution/LESSONS_LEARNED.json) and [`evolution/EVOLUTION_LOG.md`](evolution/EVOLUTION_LOG.md) store verified off-camera traps, parameter formulas, and BOM substitutions from completed projects.
+   - `yt_queue.py add` automatically injects relevant past lessons into every new sub-project's `RESEARCH_SYNTHESIS.md`.
+   - Record new lessons after completing a project:
+     ```bash
+     python3 scripts/yt_evolve.py record-lesson --project "002-my-project" --archetype "Archetype B/C" --category "off-camera-trap" --title "..." --problem "..." --solution "..."
+     ```
+2. **Immutable Plan & Generator Versioning ([`versions/`](versions) + `plans/vN/`)**:
+   - Every sub-project pins its `generator_version` (from [`VERSION`](VERSION)) and `plan_version` (`1`, `2`, ...) in [`QUEUE.json`](QUEUE.json) and `PLAN_MANIFEST.json`.
+   - `mark-planned` freezes an immutable copy of Stage 1 into `replications/<NNN>-<slug>/plans/v1/`. Use `python3 scripts/yt_queue.py revise-plan <id> --reason "..."` to create `plans/v2/` without overwriting `v1/`.
+   - When you improve templates or playbooks, archive a new immutable generator release (`versions/v1.2.0/`) without affecting any in-progress project:
+     ```bash
+     python3 scripts/yt_evolve.py bump-version 1.2.0 --summary "Improved Stage 1 research template"
+     ```

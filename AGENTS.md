@@ -73,6 +73,26 @@ When the user says "OK", "Approved", or tells you which planned project(s) they 
 
 ---
 
-## 3. Gold-Standard Reference Implementation
+## 3. Generator Evolution & Immutable Plan Versioning (`scripts/yt_evolve.py`)
+
+1. **Inherit Past Experience in Stage 1**:
+   - `yt_queue.py add` automatically injects relevant lessons from `evolution/LESSONS_LEARNED.json` into `RESEARCH_SYNTHESIS.md`. You can also query lessons directly with `python3 scripts/yt_evolve.py query --archetype "<archetype>"`.
+2. **Protect In-Progress Projects via Version Pinning**:
+   - Every sub-project pins its `generator_version` (from `VERSION`) and `plan_version` (`1`, `2`, ...) in `QUEUE.json` and `PLAN_MANIFEST.json`.
+   - `yt_queue.py mark-planned <NNN>` freezes an immutable copy of the Stage 1 plan in `replications/<NNN>-<slug>/plans/v<N>/`.
+   - To revise a plan before Stage 2 starts without losing the previous version, run `python3 scripts/yt_queue.py revise-plan <NNN> --reason "..."`.
+3. **Evolve the Generator After Completion**:
+   - At the end of Stage 2, fill out `replications/<NNN>-<slug>/RETROSPECTIVE.md` and record reusable lessons with:
+     ```bash
+     python3 scripts/yt_evolve.py record-lesson --project "<NNN>-<slug>" --archetype "<arch>" --category "<cat>" --title "..." --problem "..." --solution "..."
+     ```
+   - When templates or playbooks improve, archive an immutable release snapshot without breaking any in-progress projects:
+     ```bash
+     python3 scripts/yt_evolve.py bump-version <X.Y.Z> --summary "What the generator learned"
+     ```
+
+---
+
+## 4. Gold-Standard Reference Implementation
 
 Inspect [`replications/001-ai-niche-directory-side-hustle/`](replications/001-ai-niche-directory-side-hustle) at any time to see a complete, passing example of all 6 documents (`DECONSTRUCTION.md`, `RESEARCH_SYNTHESIS.md`, `REPLICATION_BLUEPRINT.md`, `AGENT_INSTRUCTIONS.md`, `VERIFICATION_REPORT.md`, `STEP_BY_STEP_TUTORIAL.md`), `src/`, `tests/`, and `artifacts/`.

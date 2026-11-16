@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "lessons": [
+    {
+      "id": "L-001",
+      "source_project": "001-ai-niche-directory-side-hustle",
+      "archetype": "Archetype B/C",
+      "category": "off-camera-trap",
+      "title": "Negative-Override Precedence in AI Review Enrichment",
+      "problem": "Keyword matching or unconstrained LLM tagging on phrases like 'BYOB' produces false-positive filter badges when a venue policy actually states 'no BYOB' or '$500 outside kitchen cleanup fee'.",
+      "solution": "Always pair positive pattern extraction with explicit negative-override rules and attach verbatim evidence sentences (`verified_evidence`) to every listing badge.",
+      "generator_version_added": "1.1.0",
+      "created_at": "2026-11-16T04:42:00Z"
+    },
+    {
+      "id": "L-002",
+      "source_project": "001-ai-niche-directory-side-hustle",
+      "archetype": "Archetype B/C",
+      "category": "monetization-cold-start",
+      "title": "Free-Lead-First Outreach Before Pitching $30/mo Featured Placements",
+      "problem": "Local businesses ignore cold $30/mo directory pitches when a brand-new site is in the Months 1-3 SEO Valley of Despair with low organic traffic.",
+      "solution": "Capture early buyer leads via free local group posts + a 'Get 3 Free Quotes' modal, forward 1-2 real leads for free, and only pitch the $30/mo Featured Partner upgrade after proving lead value.",
+      "generator_version_added": "1.1.0",
+      "created_at": "2026-11-16T04:42:00Z"
+    },
+    {
+      "id": "L-003",
+      "source_project": "001-ai-niche-directory-side-hustle",
+      "archetype": "All Archetypes",
+      "category": "research-resilience",
+      "title": "Multi-Tier Web Fallback When Transcript Summary Sites Block Scraping",
+      "problem": "Third-party YouTube transcript/summary websites frequently block direct HTTP fetches or paywall full transcripts.",
+      "solution": "Combine targeted `google_search` snippets with creator newsletters/blogs and `gh` repository searches in Stage 1.2 (`RESEARCH_SYNTHESIS.md`) rather than relying on a single transcript endpoint.",
+      "generator_version_added": "1.1.0",
+      "created_at": "2026-11-16T04:42:00Z"
+    }
+  ]
+}
